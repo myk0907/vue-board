@@ -1,0 +1,106 @@
+/* common.css */
+.board-list {
+    width: 768px;
+    margin: auto;
+}
+
+.board-detail {
+    width: 768px;
+    margin: auto;
+    text-align: left;
+}
+
+.board-contents {
+    padding: 12px 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.common-buttons {
+    padding: 8px;
+    text-align: right;
+}
+
+/* About page */
+.contents {
+    text-align: left;
+    vertical-align: top;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    line-height : 40px;
+}
+
+.group_row {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    padding: 0px;
+}
+
+.header_1 {
+    text-align: left;
+    margin: 55px 15px 15px 15px;
+    font-weight: bold;
+}
+
+.header_2 {
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.division_line {
+    font-size: 45px;
+    text-align: center;
+    border-top: 1px solid rgb(200, 200, 200);
+    margin: 0px;
+    padding: 5px;
+}
+
+.box1 {
+    border: 1px solid #ff5544;
+}
+
+.box2 {
+    border: 1px solid #1d82fe;
+    width: 620px;
+}
+
+.svg_icon_h1 {
+    width: 50px;
+}
+
+.svg_icon_h2 {
+    width: 27px;
+}
+
+.card_item {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #d4d0d0;
+    width: 580px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.card_title {
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    color:#555555;
+    padding: 0px;
+    margin: 10px;
+}
+
+.card_contents {
+    text-align: left;
+    font-size: 18px;
+    margin: 10px;
+    color:#7b7a7a;
+}
+
+li {
+    margin: 0 0 0 20px;
+}
