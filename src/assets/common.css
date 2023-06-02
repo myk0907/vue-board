@@ -44,6 +44,7 @@ html, body{
     vertical-align: top;
     margin: 10px;
     padding: 0px;
+    position: relative;
 }
 
 .header_1 {
@@ -52,11 +53,19 @@ html, body{
     font-weight: bold;
 }
 
+.header_1 img {
+    width: 50px;
+}
+
 .header_2 {
     text-align: left;
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+.header_2 img {
+    width: 27px;
 }
 
 .division_line {
@@ -77,26 +86,19 @@ html, body{
     width: 48%;
 }
 
-.svg_icon_h1 {
-    width: 50px;
-}
-
-.svg_icon_h2 {
-    width: 27px;
-}
-
 .card_item {
-    display: inline-block;
+    /* display: inline-block; */
     vertical-align: top;
     border: 1px solid #d4d0d0;
-    /* width: 580px; */
-    width: 45%;
-    height: 440px;
+    width: 90%;
+    /* height: 440px; */
     border-radius: 10px;
     overflow: hidden;
     margin: 20px;
     cursor: pointer;
     transition: box-shadow 0.3s ease-in-out;
+    
+    
 }
 
 .card_item:hover {
@@ -135,6 +137,47 @@ html, body{
     margin: 10px;
     color:#7b7a7a;
 }
+
+/* Modal */
+.modal_confirm {
+    background-color: white;
+    border: 1px solid #d4d0d0;
+    border-radius: 10px;
+    width: 70%;
+    height: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+.modal, .overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+}
+
+.overlay {
+    opacity: 0.5;
+    background-color: black;
+}
+
+.modal-card {
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    min-height: 500px;
+    z-index: 9999;
+    opacity: 1;
+}
+
 
 li {
     margin: 0 0 0 20px;

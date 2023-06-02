@@ -1,26 +1,46 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import PageHome from '@/views/PageHome.vue'
+import PortfolioMain from '@/views/PortfolioMain.vue'
 import BoardList from '@/views/board/BoardList.vue'
+import ProjectAutoML from '@/views/projectIntro/ProjectAutoML.vue'
+import ProjectJejuMap from '@/views/projectIntro/ProjectJejuMap.vue'
+import ProjectShop from '@/views/projectIntro/ProjectShop.vue'
+import ProjectRShiny from '@/views/projectIntro/ProjectRShiny.vue'
 
 const routes = [
+  // 메인페이지
   {
     path: '/',
-    name: 'PageHome',
-    component: PageHome
+    name: 'PortfolioMain',
+    component: PortfolioMain
+  },
+  // 프로젝트 목록
+  {
+    path: '/project/automl',
+    name: 'ProjectAutoML',
+    component: ProjectAutoML
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/PageAbout.vue')
+    path: '/project/jeju_map',
+    name: 'ProjectJejuMap',
+    component: ProjectJejuMap
   },
+  {
+    path: '/project/shop',
+    name: 'ProjectShop',
+    component: ProjectShop
+  },
+  {
+    path: '/project/sealab',
+    name: 'ProjectRShiny',
+    component: ProjectRShiny
+  },
+  // 세번째 메뉴?
   {
     path: '/board/list',
     name: 'BoardList',
     component: BoardList
-  }
+  },
+  
 ]
 
 const router = createRouter({
