@@ -57,20 +57,20 @@
     <h1 class="header_1"><img src="../assets/svg/file-box.svg"> Header3</h1>
     <h1 class="division_line"></h1>
     
-    <!-- 확인창 모달 -->
-    <!-- <div class="modal_confirm" v-if="isModalConfirm" @close-modal="isModalConfirm = false">
-      <div>ddddddddddd</div>
-      <button @click="isModalViewed = true">ddd</button>
-      <button>ddd</button>
-    </div> -->
-
     <!-- 프로젝트 설명 모달 -->
-    <ModalView v-if="isModalViewed" @close-modal="closeIntroModal">
-    </ModalView>
+    <component v-if="isModalViewed" :is="modalComponent" @close-modal="closeAboutModal"></component>
 
-    <div class="group_row box-2" id="cardItem_1" @click="openConfirmModal($event)">
-      <div v-html="dynamicHTML"></div>
-      <div class="card_item" id="cardContent_1" :style="customStyles">
+    <!-- 프로젝트 소개 -->
+    <div class="group_row box-2" @click="openConfirmModal('cardItem_1', $event)">
+      <!-- 확인창 모달 -->
+      <div v-if="isModalConfirm === 'cardItem_1'" @close-modal="closeConfirmModal()">
+        <div class="card_item card_overlay"></div>
+        <div class="modal_confirm">
+          <div class="group_row modal_button" @click="openAboutModal('automl')">ddd</div>
+          <div class="group_row modal_button">ddd</div>
+        </div>
+      </div>
+      <div class="card_item">
         <div class="card_img_box"><img src="../assets/img/test_img.jpg"></div>
         <div class="card_title">title1</div>
         <div class="card_contents">
@@ -80,8 +80,17 @@
       </div>
     </div>
 
-    <div class="group_row box-2" id="cardItem_2" @click="openConfirmModal($event)">
-      <div class="card_item" id="cardContent_2" :style="customStyles">
+    <div class="group_row box-2" @click="openConfirmModal('cardItem_2', $event)">
+      <!-- 확인창 모달 -->
+      <div v-if="isModalConfirm === 'cardItem_2'" @close-modal="closeConfirmModal()">
+        <div class="card_item card_overlay"></div>
+        <div class="modal_confirm">
+          <div class="group_row modal_button" @click="openAboutModal('shop')">ddd</div>
+          <div class="group_row modal_button">ddd</div>
+        </div>
+      </div>
+      <!-- 모달 내용 -->
+      <div class="card_item">
         <div class="card_img_box"><img src="../assets/img/test_img.jpg"></div>
         <div class="card_title">title1</div>
         <div class="card_contents">
@@ -90,12 +99,11 @@
         </div>
       </div>
     </div>
-
 
     <!-- contact -->
     <h1 class="header_1"><img src="../assets/svg/mailbox.svg"> Header4</h1>
     <h1 class="division_line"></h1>
-    <div class="contents">
+    <div class="contents" style="display:none">
       <img src="../assets/svg/e-mail.svg" style="width: 20px"> myk0907000@gmail.com<br>
       <img src="../assets/svg/phone.svg" style="width: 20px"> +82 10-9266-1710 
     </div>
@@ -103,40 +111,49 @@
 </template>
 
 <script>
-import ModalView from "./projectIntro/ModalProjectAutoML.vue"
+import ModalAutoML from "./projectAbout/ModalProjectAutoML.vue"
+import ModalShop from "./projectAbout/ModalProjectShop.vue"
 
 export default {
   components:{
-    ModalView
+    ModalAutoML,
+    ModalShop
   },
   data() {
     return {
-      isModalViewed: false,
-      isModalConfirm: false,
-      dynamicHTML: ''        
+      isModalConfirm: null, // 현재 열린 모달을 추적하기 위한 변수
+      isModalViewed: true,
+      dynamicHTML: '',
+      ModalName: null
     };
   },
   methods: {
-    openConfirmModal(e) {
-      const cardItemId = e.currentTarget.id
-      const confirmModalId = "confirmModalId_"+cardItemId.split('_')[1];
-      const confirmModalElement = document.getElementById(confirmModalId);
-      console.log(confirmModalElement)
-      this.dynamicHTML = '<div class="modal_confirm" v-if="isModalConfirm" @close-modal="isModalConfirm = false">'
-                        +   '<div>ddddddddddd</div>'
-                        +   '<button @click="isModalViewed = true">ddd</button>'
-                        +   '<button>ddd</button>'
-                        + '</div>';
-      // this.isModalConfirm = true;
+    openConfirmModal(cardItemId, e) {
+      this.isModalConfirm = cardItemId;
       e.stopPropagation(); // 이벤트 전파(stopPropagation)를 중지
     },
     closeConfirmModal() {
-    this.isModalConfirm = false;
+      this.isModalConfirm = null;
     },
-    closeIntroModal() {
-      this.isModalConfirm = false;
+    openAboutModal(prj) {
+      this.ModalName = prj;
+      this.isModalViewed = true;
+    },
+    closeAboutModal() {
       this.isModalViewed = false;
     }
+  },
+  computed: {
+    modalComponent() {
+      switch (this.ModalName) {
+        case 'automl':
+          return "ModalAutoML";
+        case 'shop':
+          return "ModalShop";
+        default:
+          return null;
+      }
+    },
   },
   mounted() {
     // 컴포넌트가 마운트된 후, 바깥쪽 요소에 클릭 이벤트 리스너를 추가합니다.

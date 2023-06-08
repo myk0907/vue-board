@@ -1,8 +1,7 @@
 <!-- PageAbout.vue -->
 <template>
-  <ProjectIntroHeader/>
   <div class="project_shop">
-    <h1 style="margin: 50px">This is an about page [4] </h1>
+    <h1 style="margin: 50px">This is an about page [3] </h1>
     
     <!-- 소개 -->
     <div class="contents">
@@ -18,16 +17,4 @@
 </template>
 
 <script>
-import ProjectIntroHeader from '@/components/Project-Header'
-
-export default {
-  name: 'ProjectShop',
-  components: {
-    ProjectIntroHeader
-  },
-  mounted() {
-    const header_about_el = document.getElementById('page_about');
-    header_about_el.classList.add('router-link-exact-active');
-  }
-}
 </script>

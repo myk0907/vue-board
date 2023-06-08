@@ -30,6 +30,7 @@ html, body{
     box-sizing: border-box;
 }
 
+/* 기본 css */
 .contents {
     text-align: left;
     vertical-align: top;
@@ -81,13 +82,42 @@ html, body{
 }
 
 .box-2 {
-    /* border: 1px solid #1d82fe; */
-    /* width: 620px; */
     width: 48%;
+    position: relative;
+}
+/* About 메뉴 */
+.about_menu {
+    /* border: 1px solid #846a6a; */
+    height: 40px;
+    width: 10%;
+    line-height:40px;
+    margin: 10px 5px 10px 5px;
+    cursor: pointer;
 }
 
+.about_menu_clicked {
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: #42b983;
+    color: #42b983;
+}
+
+.about_menu:hover {
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: #5bd69e;
+}
+
+.about_menu_bar {
+    /* border: 1px solid #846a6a; */
+    height: 40px;
+    width: 2%;
+    line-height:40px;
+    margin: 10px 5px 10px 5px;
+}
+
+/* 카드 */
 .card_item {
-    /* display: inline-block; */
     vertical-align: top;
     border: 1px solid #d4d0d0;
     width: 90%;
@@ -97,8 +127,6 @@ html, body{
     margin: 20px;
     cursor: pointer;
     transition: box-shadow 0.3s ease-in-out;
-    
-    
 }
 
 .card_item:hover {
@@ -138,18 +166,43 @@ html, body{
     color:#7b7a7a;
 }
 
+.card_overlay {
+    background-color: black;
+    height: 91.7%;
+    opacity: 0.3;
+    z-index: 9;
+    position: absolute;
+}
+
 /* Modal */
 .modal_confirm {
     background-color: white;
     border: 1px solid #d4d0d0;
     border-radius: 10px;
-    width: 70%;
-    height: 40%;
+    width: 243px;
+    height: 75px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 999;
+    z-index: 99;
+    overflow: hidden;
+}
+
+.modal_button {
+    border: 1px solid #d4d0d0;
+    text-align : center;
+    width : 50%;
+    height : 100%;
+    margin: 0px;
+    line-height:71px;
+    /* padding: 33px 0px; */
+    cursor: pointer;
+}
+
+.modal_button:hover {
+    background-color: rgb(141, 82, 158);
+    color: white;
 }
 
 .modal, .overlay {
@@ -158,7 +211,7 @@ html, body{
     position: fixed;
     left: 0;
     top: 0;
-    
+    z-index: 999;
 }
 
 .overlay {
@@ -167,6 +220,7 @@ html, body{
 }
 
 .modal-card {
+    border-radius: 10px;
     position: relative;
     max-width: 80%;
     margin: auto;
@@ -177,7 +231,6 @@ html, body{
     z-index: 9999;
     opacity: 1;
 }
-
 
 li {
     margin: 0 0 0 20px;

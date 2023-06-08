@@ -30,6 +30,7 @@ export default {
 
 #nav {
   padding: 30px;
+  transform: scale(1.1);
 }
 
 #nav a {

@@ -10,7 +10,7 @@
           <img src="../../assets/img/test_img.jpg">
         </div>
         <div class="group_row contents box1">
-          가나다라마바사아자차카타파하가갸거겨고교구규그기카캬커켜코쿄쿠큐크키
+          모달이다아아아아ㅏㅏㅏ아아아앙아아아아아ㅏㅇ아아아아아아아ㅏ
         </div>
       </div>
     </div>
