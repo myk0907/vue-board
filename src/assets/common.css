@@ -38,6 +38,7 @@ html, body{
     margin: 10px 0 10px 0;
     padding: 10px;
     line-height : 40px;
+    word-break: break-all;
 }
 
 .group_row {
@@ -77,17 +78,22 @@ html, body{
     padding: 5px;
 }
 
-.box1 {
-    /* border: 1px solid #ff5544; */
-}
-
 .box-2 {
     width: 48%;
     position: relative;
 }
+
+.lang_logo {
+    width: 40px;
+    margin: 10px;
+}
+
 /* About 메뉴 */
-.about_menu {
-    /* border: 1px solid #846a6a; */
+.menu div {
+    display: inline-block;
+}
+
+.menu_item {
     height: 40px;
     width: 10%;
     line-height:40px;
@@ -95,21 +101,21 @@ html, body{
     cursor: pointer;
 }
 
-.about_menu_clicked {
-    border-width: 1px 0px 1px 0px;
+.menu_item_clicked {
+    border-width: 2px 0px 2px 0px;
     border-style: solid;
     border-color: #42b983;
     color: #42b983;
+    font-weight: bold;
 }
 
-.about_menu:hover {
-    border-width: 1px 0px 1px 0px;
+.menu_item:hover {
+    border-width: 2px 0px 2px 0px;
     border-style: solid;
-    border-color: #5bd69e;
+    border-color: #42b9834e;
 }
 
-.about_menu_bar {
-    /* border: 1px solid #846a6a; */
+.menu_item_bar {
     height: 40px;
     width: 2%;
     line-height:40px;
@@ -192,6 +198,7 @@ html, body{
 .modal_button {
     border: 1px solid #d4d0d0;
     text-align : center;
+    font-weight: bold;
     width : 50%;
     height : 100%;
     margin: 0px;
@@ -200,9 +207,22 @@ html, body{
     cursor: pointer;
 }
 
+.modal_button img {
+    width: 80px;
+    position: absolute;
+    margin: auto;
+    display: block;
+    top: -3px;
+    left: 18px;
+}
+
 .modal_button:hover {
-    background-color: rgb(141, 82, 158);
+    background-color: #42b983;
     color: white;
+}
+
+.modal_button:hover .svg-icon {
+    filter: invert(100%) sepia(16%) saturate(2691%) hue-rotate(173deg) brightness(109%) contrast(111%);
 }
 
 .modal, .overlay {
@@ -222,16 +242,44 @@ html, body{
 .modal-card {
     border-radius: 10px;
     position: relative;
+    width: max-content;
     max-width: 80%;
     margin: auto;
     margin-top: 30px;
     padding: 20px;
     background-color: white;
     min-height: 500px;
+    max-height: 92%;
+    overflow-y:scroll;
     z-index: 9999;
-    opacity: 1;
 }
 
 li {
     margin: 0 0 0 20px;
+    /* list-style-type: ""; */
+}
+
+li::marker {
+    color: #42b983;
+    /* content: "😍"; */
+  }
+
+/* 스크롤바 전체 */
+::-webkit-scrollbar {  
+    width: 13px;
+}
+
+/* 스크롤바 막대 */
+::-webkit-scrollbar-thumb {
+    background-color: #42b983;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+/* 스크롤바 여백 */
+::-webkit-scrollbar-track {
+    background-color: #42b9835d;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
 }
