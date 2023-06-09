@@ -14,6 +14,9 @@ import ProjectSealab from "../ProjectRShiny.vue"
 export default {
   components:{
     ProjectSealab,
+  },
+  mounted() {
+    document.querySelector('.git_button').style.display = 'none'
   }
 };
 </script>

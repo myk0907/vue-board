@@ -14,6 +14,9 @@ import ProjectJejuMap from "../ProjectJejuMap.vue"
 export default {
   components:{
     ProjectJejuMap,
+  },
+  mounted() {
+    document.querySelector('.git_button').style.display = 'none'
   }
 };
 </script>

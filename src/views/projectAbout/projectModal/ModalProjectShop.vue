@@ -14,6 +14,9 @@ import ProjectShop from "../ProjectShop.vue"
 export default {
   components:{
     ProjectShop,
+  },
+  mounted() {
+    document.querySelector('.git_button').style.display = 'none'
   }
 };
 </script>

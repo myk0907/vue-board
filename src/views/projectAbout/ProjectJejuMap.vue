@@ -2,7 +2,7 @@
 <template>
   <div class="project_jeju">
     <h1 style="margin: 50px">This is an about page [제주도] </h1>
-    <div style="text-align: right;">
+    <div class="git_button" style="text-align: right;">
       <a href='https://www.naver.com' target='_blank'>
         <img src="../../assets/svg/github-icon-svgrepo-com.svg" style="width: 40px;">
       </a>
