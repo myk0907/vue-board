@@ -2,6 +2,11 @@
 <template>
   <div class="project_jeju">
     <h1 style="margin: 50px">This is an about page [제주도] </h1>
+    <div style="text-align: right;">
+      <a href='https://www.naver.com' target='_blank'>
+        <img src="../../assets/svg/github-icon-svgrepo-com.svg" style="width: 40px;">
+      </a>
+    </div>
     
     <!-- 프로젝트 설명 -->
     <div style="margin-left: 20px;">
@@ -15,7 +20,7 @@
           요약
           <li>ddd</li>
 
-          
+
         </div>
       </div>
       <div class="contents">
