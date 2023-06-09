@@ -167,6 +167,8 @@ import ModalJeju from "./projectAbout/projectModal/ModalProjectJeju.vue"
 import ModalShop from "./projectAbout/projectModal/ModalProjectShop.vue"
 import ModalSealab from "./projectAbout/projectModal/ModalProjectSealab.vue"
 
+let scrollY=0;
+
 export default {
   components: {
     ModalAutoML,
@@ -191,16 +193,19 @@ export default {
       this.isModalConfirm = null;
     },
     openAboutModal(prj) {
-      const scrollY = window.scrollY || window.pageYOffset;
-      window.scrollTo(0, scrollY);
-      document.body.style.overflow = 'hidden'; // body 스크롤기능 hidden
+      scrollY = window.scrollY || window.pageYOffset; // 현재 스크롤 위치
+      window.addEventListener('scroll', this.handleScroll, { passive: false }); // 스크롤 이벤트 캡처링
       this.ModalName = prj;
       this.isModalViewed = true;
     },
     closeAboutModal() {
-      document.body.style.overflow = 'auto'; // body 스크롤기능
+      window.removeEventListener('scroll', this.handleScroll); // 스크롤 이벤트 제거
       this.isModalViewed = false;
-    }
+    },
+    handleScroll(event) {
+      event.preventDefault(); // 스크롤 동작 정지
+      window.scrollTo(0, scrollY); // 스크롤 위치 이동
+    },
   },
   computed: {
     modalComponent() {
