@@ -14,9 +14,6 @@ import ProjectAutoML from "../ProjectAutoML.vue"
 export default {
   components:{
     ProjectAutoML,
-  },
-  mounted() {
-    document.querySelector('.git_button').style.display = 'none'
   }
 };
 </script>
