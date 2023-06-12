@@ -44,7 +44,6 @@ export default {
   methods: {
     openProject(menu_num) {
       // 기존 클릭된 메뉴 about_menu_clicked클래스 제거
-      console.log(selected_menu);
       document.querySelector('#btn_'+selected_menu).classList.remove('menu_item_clicked');
       
       // 새로 클릭된 메뉴에 about_menu_clicked클래스 추가

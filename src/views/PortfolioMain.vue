@@ -277,7 +277,7 @@
       <!-- 모달 내용 -->
       <div class="card_item">
         <div class="card_img_box"><img src="../assets/img/project/jeju_1.png"></div>
-        <div class="card_title">놀당갑서(제주도 맛집, 숙박, 관광지 추천 사이트)</div>
+        <div class="card_title">놀당갑서(제주도 여행 추천 사이트)</div>
         <div class="card_contents">
           제주도의 음식점, 카페, 숙박시설 데이터를 수집 및 분석 후 지도에 표출하고, 찜 기능을 이용하여 여행 경로를 확인
         </div>
