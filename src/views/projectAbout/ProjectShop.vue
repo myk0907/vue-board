@@ -2,12 +2,12 @@
 <template>
   <div class="project_shop">
     <h1 style="margin: 50px">This is an about page [3] </h1>
-    <div class="git_button" style="text-align: right;">
+    <div class="git_button" id="git_button_shop" style="text-align: right;">
       <a href='https://www.naver.com' target='_blank'>
         <img src="../../assets/svg/github-icon-svgrepo-com.svg" style="width: 40px;">
       </a>
     </div>
-    
+
     <!-- 소개 -->
     <div class="contents">
       <div class="group_row box1" style="margin-right: 50px">
