@@ -7,7 +7,7 @@
     <!-- 소개 -->
     <div class="contents">
       <div class="group_row" style="margin-right: 50px">
-        <img alt="Vue logo" src="../assets/logo.png">
+        <img alt="Vue logo" src="../assets/pngegg.png" style="width: 200px">
       </div>
       <div class="group_row contents">
         가나다라마바사아자차카타파하가갸거겨고교구규그기카캬커켜코쿄쿠큐크키
@@ -16,12 +16,12 @@
     <!-- https://www.svgrepo.com/collection/twemoji-emojis/1  svg 이모지 사이트-->
 
     <!-- 경력 -->
-    <h1 class="header_1"><img src="../assets/svg/magnifying-glass.svg"> Header1</h1>
+    <h1 class="header_1"><img src="../assets/svg/bagel.svg"> Header1</h1>
     <h1 class="division_line"></h1>
     <div>
       <div class="group_row box-2">
         <div class="contents">
-          <div class="header_2"><img src="../assets/svg/books.svg"> Header1-1</div>
+          <div class="header_2"><img src="../assets/svg/bagel.svg"> Header1-1</div>
           <div>
             가나다라마바사아자차카타파하가갸거겨고교구규
             <li>ddd</li>
@@ -32,22 +32,22 @@
 
       <div class="group_row box-2">
         <div class="contents">
-          <div class="header_2"><img src="../assets/svg/graduation-cap.svg"> Header1-1</div>
+          <div class="header_2"><img src="../assets/svg/bagel.svg"> Header1-1</div>
           dd
         </div>
         <div class="contents">
-          <div class="header_2"><img src="../assets/svg/card-index.svg"> Header1-1</div>
+          <div class="header_2"><img src="../assets/svg/bagel.svg"> Header1-1</div>
           dd
         </div>
         <div class="contents">
-          <div class="header_2"><img src="../assets/svg/pencil.svg"> Header1-1</div>
+          <div class="header_2"><img src="../assets/svg/bagel.svg"> Header1-1</div>
           dd
         </div>
       </div>
     </div>
     
     <!-- 보유스킬 -->
-    <h1 class="header_1"><img src="../assets/svg/hammer-and-wrench.svg"> Header2</h1>
+    <h1 class="header_1"><img src="../assets/svg/bagel.svg"> Header2</h1>
     <!-- <h1 class="header_1"><img src="../assets/svg/hammer-and-wrench.svg"> Skills</h1> -->
     <h1 class="division_line"></h1>
     <div class="contents">
@@ -66,7 +66,7 @@
     </div>
 
     <!-- 프로젝트 -->
-    <h1 class="header_1"><img src="../assets/svg/file-box.svg"> Header3</h1>
+    <h1 class="header_1"><img src="../assets/svg/bagel.svg"> Header3</h1>
     <h1 class="division_line"></h1>
     
     <!-- 프로젝트 설명 모달 -->
@@ -151,15 +151,14 @@
         <div class="contents">
           <div class="header_2"><img src="../assets/svg/books.svg"> 경력</div>
           <div>
-            알고그랩 <span style="color: rgb(148, 148, 148); font-size: 18px">&nbsp;2022.10 ~ 현재</span>
+            알고그랩 <span class="contents_desc">&nbsp;2022.10 ~ 현재</span>
             <li>Spring Boot를 이용한 웹 솔루션 제작</li>
             <!-- <li>JavaScript → Vue 라이브러리 변환 작업</li> -->
           </div>
           <div style="margin-top: 10px">
-            (주)환경과학기술 <span style="color: rgb(148, 148, 148); font-size: 18px">&nbsp;2017.5 ~ 2022.2</span>
+            (주)환경과학기술 <span class="contents_desc">&nbsp;2017.5 ~ 2022.2</span>
             <li>해양환경 데이터 수집 및 DB 적재</li>
             <li>해양 교육앱 제작(R shiny 웹어플리케이션)</li>
-            <!-- <li>ddd</li> -->
           </div>
         </div>
       </div>
@@ -167,20 +166,20 @@
       <div class="group_row box-2">
         <div class="contents">
           <div class="header_2"><img src="../assets/svg/graduation-cap.svg"> 학력</div>
-          한양대학교 해양융합과학과 <span style="color: rgb(148, 148, 148); font-size: 18px">&nbsp;2015.3 ~ 2017.2 졸업</span><br>
-          학점은행제 컴퓨터공학과 <span style="color: rgb(148, 148, 148); font-size: 18px">&nbsp;2013.3 ~ 2015.2 수료</span>
+          한양대학교 해양융합과학과 <span class="contents_desc">&nbsp;2015.3 ~ 2017.2 졸업</span><br>
+          학점은행제 컴퓨터공학과 <span class="contents_desc">&nbsp;2013.3 ~ 2015.2 수료</span>
         </div>
         <div class="contents">
           <div class="header_2"><img src="../assets/svg/card-index.svg"> 자격증</div>
-          SQLD <span style="color: rgb(148, 148, 148); font-size: 18px">&nbsp;2020.10.06 (한국데이터산업진흥원)</span><br>
-          컴퓨터활용능력 2급 <span style="color: rgb(148, 148, 148); font-size: 18px">&nbsp;2016.08.26 (대한상공회의소)</span><br>
+          SQLD <span class="contents_desc">&nbsp;2020.10.06 (한국데이터산업진흥원)</span><br>
+          컴퓨터활용능력 2급 <span class="contents_desc">&nbsp;2016.08.26 (대한상공회의소)</span><br>
         </div>
       </div>
     </div>
     <div class="contents">
       <div class="header_2"><img src="../assets/svg/pencil.svg"> 교육</div>
       빅데이터 플랫폼 구축(하둡)과 빅데이터분석(by Spark&Power Bi) & 자바(JAVA)웹개발<br>
-      <span style="color: rgb(148, 148, 148); font-size: 18px">&nbsp;2022.02 ~ 2022.08 (더조은아이티아카데미학원)</span><br>
+      <span class="contents_desc">&nbsp;2022.02 ~ 2022.08 (더조은아이티아카데미학원)</span><br>
       <li>Spring Framework를 기반으로 웹 페이지 기획, 설계와 데이터베이스 활용을 통해 실무적인 기술을 익히고 빅데이터를 분산처리 할 수 있는 파이썬과 하둡 기술 학습</li>
     </div>
     
@@ -276,9 +275,10 @@
       </div>
       <!-- 모달 내용 -->
       <div class="card_item">
-        <div class="card_img_box"><img src="../assets/img/project/jeju_1.png"></div>
-        <div class="card_title">놀당갑서(제주도 여행 추천 사이트)</div>
+        <div class="card_img_box"><img src="../assets/img/project/jeju/jeju_1.png"></div>
+        <div class="card_title">놀당갑서</div>
         <div class="card_contents">
+          제주도 여행 추천 사이트<br>
           제주도의 음식점, 카페, 숙박시설 데이터를 수집 및 분석 후 지도에 표출하고, 찜 기능을 이용하여 여행 경로를 확인
         </div>
       </div>
@@ -299,8 +299,8 @@
       </div>
       <!-- 모달 내용 -->
       <div class="card_item">
-        <div class="card_img_box"><img src="../assets/img/test_img.jpg"></div>
-        <div class="card_title">WWW(화장품 쇼핑몰)</div>
+        <div class="card_img_box"><img src="../assets/img/project/shop/www_shop_1.png"></div>
+        <div class="card_title">WWW</div>
         <div class="card_contents">
           화면이 구현되어 있는 기존 화장품 쇼핑몰 사이트 클론 코딩
         </div>
@@ -322,7 +322,7 @@
       </div>
       <!-- 모달 내용 -->
       <div class="card_item">
-        <div class="card_img_box"><img src="../assets/img/project/sealab_1.png"></div>
+        <div class="card_img_box"><img src="../assets/img/project/sealab/sealab_1.png"></div>
         <div class="card_title">해(海)봄 교실 교육 앱</div>
         <div class="card_contents">
           중고등학교 과학 수업에 활용 할 수 있는 웹 페이지
@@ -331,8 +331,7 @@
     </div>
 
     <!-- contact -->
-    <h1 class="header_1"><img src="../assets/svg/mailbox.svg"> Header4</h1>
-    <!-- <h1 class="header_1"><img src="../assets/svg/mailbox.svg"> Contact</h1> -->
+    <h1 class="header_1"><img src="../assets/svg/mailbox.svg"> Contact</h1>
     <h1 class="division_line"></h1>
     <div class="contents">
       <img src="../assets/svg/e-mail.svg" style="width: 20px"> myk0907000@gmail.com<br>

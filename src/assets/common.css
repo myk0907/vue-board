@@ -103,6 +103,11 @@ html, body{
     text-align: center;
 }
 
+.contents_desc {
+    color: rgb(148, 148, 148); 
+    font-size: 18px
+}
+
 /* About 메뉴 */
 .menu div {
     display: inline-block;
@@ -278,7 +283,7 @@ li {
 li::marker {
     color: #42b983;
     /* content: "😍"; */
-  }
+}
 
 /* 스크롤바 전체 */
 ::-webkit-scrollbar {  
@@ -310,9 +315,9 @@ li::marker {
 
 /* -------------------------임시------------------------- */
 .real_data {
+    display: none
 }
 
 .fake_data {
-    display: none
     
 }

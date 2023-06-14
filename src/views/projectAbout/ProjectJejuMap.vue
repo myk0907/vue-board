@@ -3,7 +3,7 @@
   <div class="project_jeju">
     <!-- 가짜 -->
     <div class="fake_data">
-    <h1 style="margin: 50px">This is an about page [2] </h1>
+    <h1 style="margin: 50px">This is an about page [3] </h1>
     
     <div class="contents">
       <div class="group_row box1" style="margin-right: 50px">
@@ -49,37 +49,37 @@
         <div class="header_2">개발환경</div>
         <div class="contents" >
           <div class="group_row txt_center">   
-              <img class="lang_logo" src="../../assets/lang_logo/python-svgrepo-com.svg">
+            <img class="lang_logo" src="../../assets/lang_logo/python-svgrepo-com.svg">
             <div class="image_title">
               Python
             </div>
           </div>
           <div class="group_row txt_center">   
-              <img class="lang_logo" src="../../assets/lang_logo/flask-svgrepo-com.svg">
+            <img class="lang_logo" src="../../assets/lang_logo/flask-svgrepo-com.svg">
             <div class="image_title">
               Flask
             </div>
           </div>
           <div class="group_row txt_center">   
-              <img class="lang_logo" src="../../assets/lang_logo/HTML5_logo.svg">
+            <img class="lang_logo" src="../../assets/lang_logo/HTML5_logo.svg">
             <div class="image_title">
               HTML
             </div>
           </div>
           <div class="group_row txt_center">   
-              <img class="lang_logo" src="../../assets/lang_logo/css-3-svgrepo-com.svg">
+            <img class="lang_logo" src="../../assets/lang_logo/css-3-svgrepo-com.svg">
             <div class="image_title">
               CSS
             </div>
           </div>
           <div class="group_row txt_center">   
-              <img class="lang_logo" src="../../assets/lang_logo/javascript-svgrepo-com.svg">
+            <img class="lang_logo" src="../../assets/lang_logo/javascript-svgrepo-com.svg">
             <div class="image_title">
               JavaScript
             </div>
           </div>
           <div class="group_row txt_center">   
-              <img class="lang_logo" src="../../assets/lang_logo/mysql-svgrepo-com.svg">
+            <img class="lang_logo" src="../../assets/lang_logo/mysql-svgrepo-com.svg">
             <div class="image_title">
               MySQL
             </div>
@@ -94,16 +94,15 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <img src="../../assets/img/project/jeju_1.png" style="width: 100%">
+            <img src="../../assets/img/project/jeju/jeju_main.png" style="width: 100%">
           </div>
         </div>
       </div>
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            스마트파인더 화면 : 제주도의 위치(제주시, 서귀포시, 제주도), 카테고리 (음식점, 관광지, 숙박) 로 나누어 화면에 표출할 수 있고, 찜 기능을 활용하여 여행 경로를 확인할 수 있다.<br>
-            <br>
-            찜 버튼을 누를 시 지도의 마커를 연결하여 직선 경로를 표시하였다. 
+            <span style="font-weight: bold;">메인 페이지</span><br>
+            놀당갑서의 메인페이지로 제주도 또는 서귀포 중 선택하여 스마트 파인더 페이지로 이동 가능
           </div>
         </div>
       </div>
@@ -112,16 +111,34 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <img src="../../assets/img/project/jeju_1.png" style="width: 100%">
+            <img src="../../assets/img/project/jeju/jeju_1.png" style="width: 100%">
           </div>
         </div>
       </div>
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            스마트파인더 화면 : 제주도의 위치(제주시, 서귀포시, 제주도), 카테고리 (음식점, 관광지, 숙박) 로 나누어 화면에 표출할 수 있고, 찜 기능을 활용하여 여행 경로를 확인할 수 있다.<br>
+            <span style="font-weight: bold;">스마트파인더 화면</span><br>
+            제주도의 위치(제주시, 서귀포시, 제주도), 카테고리 (음식점, 관광지, 숙박) 표출 및 찜 기능을 이용한 여행 경로를 확인<br>
             <br>
-            찜 버튼을 누를 시 지도의 마커를 연결하여 직선 경로를 표시하였다. 
+            찜 버튼을 누를 시 지도의 마커를 연결하여 직선 경로 표시
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="group_row box-2">
+        <div class="contents">
+          <div> 
+            <img src="../../assets/img/project/jeju/jeju_2.png" style="width: 100%">
+          </div>
+        </div>
+      </div>
+      <div class="group_row box-2">
+        <div class="contents">
+          <div>
+            <span style="font-weight: bold;">제주도 정보</span><br>
+            최근 5년간의 제주도 방문객 추이와 현재 제주도 날씨 정보 제공
           </div>
         </div>
       </div>
