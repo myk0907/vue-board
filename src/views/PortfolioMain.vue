@@ -250,14 +250,8 @@
           <div class="group_row modal_button" @click="openAboutModal('automl')" style="width:100%">자세히 보기</div>
         </div>
       </div>
-      <div class="card_item">
-        <div class="card_img_box"><img src="../assets/img/test_img.jpg"></div>
-        <div class="card_title">AutoML 솔루션</div>
-        <div class="card_contents">
-          안녕하세요.<br>
-          반갑습니다.
-        </div>
-      </div>
+
+      <CardComponent :imgSrc="require('@/assets/img/test_img.jpg')" cardTitle="AutoML 솔루션" cardContents="설명이다"/>
     </div>
 
     <div class="group_row box-2" @click="openConfirmModal('cardItem_3', $event)">
@@ -274,19 +268,13 @@
         </div>
       </div>
       <!-- 모달 내용 -->
-      <div class="card_item">
-        <div class="card_img_box"><img src="../assets/img/project/jeju/jeju_1.png"></div>
-        <div class="card_title">놀당갑서</div>
-        <div class="card_contents">
-          제주도 여행 추천 사이트<br>
-          제주도의 음식점, 카페, 숙박시설 데이터를 수집 및 분석 후 지도에 표출하고, 찜 기능을 이용하여 여행 경로를 확인
-        </div>
-      </div>
+      <CardComponent :imgSrc="require('@/assets/img/project/jeju/jeju_1.png')" cardTitle="놀당갑서" cardContents="제주도 여행지 추천 사이트"/>
     </div>
 
     <div class="group_row box-2" @click="openConfirmModal('cardItem_2', $event)">
       <!-- 확인창 모달 -->
-      <div v-if="isModalConfirm === 'cardItem_2'" @close-modal="closeConfirmModal()">
+      <ConfirmModal />
+      <!-- <div v-if="isModalConfirm === 'cardItem_2'" @close-modal="closeConfirmModal()">
         <div class="card_item card_overlay"></div>
         <div class="modal_confirm">
           <div class="group_row modal_button" @click="openAboutModal('shop')">자세히 보기</div>
@@ -296,15 +284,9 @@
             </div>
           </a>
         </div>
-      </div>
+      </div> -->
       <!-- 모달 내용 -->
-      <div class="card_item">
-        <div class="card_img_box"><img src="../assets/img/project/shop/www_shop_1.png"></div>
-        <div class="card_title">WWW</div>
-        <div class="card_contents">
-          화면이 구현되어 있는 기존 화장품 쇼핑몰 사이트 클론 코딩
-        </div>
-      </div>
+      <CardComponent :imgSrc="require('@/assets/img/project/shop/www_shop_1.png')" cardTitle="WWW" cardContents="화면이 구현되어 있는 기존 화장품 쇼핑몰 사이트 클론 코딩"/>
     </div>
 
     <div class="group_row box-2" @click="openConfirmModal('cardItem_1', $event)">
@@ -321,13 +303,7 @@
         </div>
       </div>
       <!-- 모달 내용 -->
-      <div class="card_item">
-        <div class="card_img_box"><img src="../assets/img/project/sealab/sealab_1.png"></div>
-        <div class="card_title">해(海)봄 교실 교육 앱</div>
-        <div class="card_contents">
-          중고등학교 과학 수업에 활용 할 수 있는 웹 페이지
-        </div>
-      </div>
+      <CardComponent :imgSrc="require('@/assets/img/project/sealab/sealab_1.png')" cardTitle="해(海)봄 교실 교육 앱" cardContents="중고등학교 과학 수업에 활용 할 수 있는 웹 페이지"/>
     </div>
 
     <!-- contact -->
@@ -341,6 +317,8 @@
 </template>
 
 <script>
+import ConfirmModal from './componentsItems/ConfirmModal.vue'
+import CardComponent from './componentsItems/CardComponent.vue'
 import ModalAutoML from "./projectAbout/projectModal/ModalProjectAutoML.vue"
 import ModalJeju from "./projectAbout/projectModal/ModalProjectJeju.vue"
 import ModalShop from "./projectAbout/projectModal/ModalProjectShop.vue"
@@ -353,14 +331,16 @@ export default {
     ModalAutoML,
     ModalJeju,
     ModalShop,
-    ModalSealab
+    ModalSealab,
+    CardComponent,
+    ConfirmModal
   },
   data() {
     return {
       isModalConfirm: null, // 현재 열린 모달을 추적하기 위한 변수
       isModalViewed: true,
       dynamicHTML: '',
-      ModalName: null
+      ModalName: null,
     };
   },
   methods: {

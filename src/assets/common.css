@@ -315,9 +315,9 @@ li::marker {
 
 /* -------------------------임시------------------------- */
 .real_data {
-    display: none
 }
 
 .fake_data {
+    display: none
     
 }
