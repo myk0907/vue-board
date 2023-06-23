@@ -188,13 +188,13 @@
     <h1 class="division_line"></h1>
     <div class="contents real_data">
       <div class="group_row box-3">
-        <div class="header_2"><img src="../assets/svg/browser.svg"> 웹개발!</div>
+        <div class="header_2"><img src="../assets/svg/browser.svg"> 웹개발</div>
           <li>Spring Framework & JAVA</li>
           <li>HTML</li>
           <li>JavaScript</li>
           <li>CSS</li>
 
-          <!-- 
+<!--           
           Spring Framework & JAVA
           <li>MVC 패턴을 이용한 웹 페이지 (게시판, 페이징) 구현</li>
           <li>Mybatis를 활용한 데이터베이스 연동</li>
@@ -250,8 +250,8 @@
           <div class="group_row modal_button" @click="openAboutModal('automl')" style="width:100%">자세히 보기</div>
         </div>
       </div>
-
-      <CardComponent :imgSrc="require('@/assets/img/test_img.jpg')" cardTitle="AutoML 솔루션" cardContents="설명이다"/>
+      <!-- 모달 내용 -->
+      <CardComponent :imgSrc="require('@/assets/img/project/automl/automl_5.png')" cardTitle="AutoML 솔루션" cardContents="반복적인 Machine Learning 모델 개발 작업 자동화 솔루션"/>
     </div>
 
     <div class="group_row box-2" @click="openConfirmModal('cardItem_3', $event)">

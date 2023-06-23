@@ -147,7 +147,7 @@ html, body{
     vertical-align: top;
     border: 1px solid #d4d0d0;
     width: 90%;
-    /* height: 440px; */
+    /* height: 400px; */
     border-radius: 10px;
     overflow: hidden;
     margin: 20px;
@@ -166,6 +166,7 @@ html, body{
 
 .card_img_box {
     max-height: 72%;
+    height: 300px;
     overflow: hidden;
 }
 
