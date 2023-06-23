@@ -188,7 +188,7 @@
     <h1 class="division_line"></h1>
     <div class="contents real_data">
       <div class="group_row box-3">
-        <div class="header_2"><img src="../assets/svg/browser.svg"> 웹개발</div>
+        <div class="header_2"><img src="../assets/svg/browser.svg"> 웹개발!</div>
           <li>Spring Framework & JAVA</li>
           <li>HTML</li>
           <li>JavaScript</li>
