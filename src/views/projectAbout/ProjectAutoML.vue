@@ -50,37 +50,43 @@
         <div class="contents" >
           <div class="group_row txt_center">   
               <img class="lang_logo" src="../../assets/lang_logo/python-svgrepo-com.svg">
-            <div class="image_title">
+            <div class="lang_logo_title
+            ">
               Python
             </div>
           </div>
           <div class="group_row txt_center">   
               <img class="lang_logo" src="../../assets/lang_logo/flask-svgrepo-com.svg">
-            <div class="image_title">
+            <div class="lang_logo_title
+            ">
               Flask
             </div>
           </div>
           <div class="group_row txt_center">   
               <img class="lang_logo" src="../../assets/lang_logo/HTML5_logo.svg">
-            <div class="image_title">
+            <div class="lang_logo_title
+            ">
               HTML
             </div>
           </div>
           <div class="group_row txt_center">   
               <img class="lang_logo" src="../../assets/lang_logo/css-3-svgrepo-com.svg">
-            <div class="image_title">
+            <div class="lang_logo_title
+            ">
               CSS
             </div>
           </div>
           <div class="group_row txt_center">   
               <img class="lang_logo" src="../../assets/lang_logo/javascript-svgrepo-com.svg">
-            <div class="image_title">
+            <div class="lang_logo_title
+            ">
               JavaScript
             </div>
           </div>
           <div class="group_row txt_center">   
               <img class="lang_logo" src="../../assets/lang_logo/mysql-svgrepo-com.svg">
-            <div class="image_title">
+            <div class="lang_logo_title
+            ">
               MySQL
             </div>
           </div>

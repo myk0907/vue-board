@@ -273,8 +273,8 @@
 
     <div class="group_row box-2" @click="openConfirmModal('cardItem_2', $event)">
       <!-- 확인창 모달 -->
-      <ConfirmModal />
-      <!-- <div v-if="isModalConfirm === 'cardItem_2'" @close-modal="closeConfirmModal()">
+      <!-- <ConfirmModal /> -->
+      <div v-if="isModalConfirm === 'cardItem_2'" @close-modal="closeConfirmModal()">
         <div class="card_item card_overlay"></div>
         <div class="modal_confirm">
           <div class="group_row modal_button" @click="openAboutModal('shop')">자세히 보기</div>
@@ -284,7 +284,7 @@
             </div>
           </a>
         </div>
-      </div> -->
+      </div>
       <!-- 모달 내용 -->
       <CardComponent :imgSrc="require('@/assets/img/project/shop/www_shop_1.png')" cardTitle="WWW" cardContents="화면이 구현되어 있는 기존 화장품 쇼핑몰 사이트 클론 코딩"/>
     </div>

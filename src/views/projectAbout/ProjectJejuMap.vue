@@ -50,37 +50,37 @@
         <div class="contents" >
           <div class="group_row txt_center">   
             <img class="lang_logo" src="../../assets/lang_logo/python-svgrepo-com.svg">
-            <div class="image_title">
+            <div class="lang_logo_title">
               Python
             </div>
           </div>
           <div class="group_row txt_center">   
             <img class="lang_logo" src="../../assets/lang_logo/flask-svgrepo-com.svg">
-            <div class="image_title">
+            <div class="lang_logo_title">
               Flask
             </div>
           </div>
           <div class="group_row txt_center">   
             <img class="lang_logo" src="../../assets/lang_logo/HTML5_logo.svg">
-            <div class="image_title">
+            <div class="lang_logo_title">
               HTML
             </div>
           </div>
           <div class="group_row txt_center">   
             <img class="lang_logo" src="../../assets/lang_logo/css-3-svgrepo-com.svg">
-            <div class="image_title">
+            <div class="lang_logo_title">
               CSS
             </div>
           </div>
           <div class="group_row txt_center">   
             <img class="lang_logo" src="../../assets/lang_logo/javascript-svgrepo-com.svg">
-            <div class="image_title">
+            <div class="lang_logo_title">
               JavaScript
             </div>
           </div>
           <div class="group_row txt_center">   
             <img class="lang_logo" src="../../assets/lang_logo/mysql-svgrepo-com.svg">
-            <div class="image_title">
+            <div class="lang_logo_title">
               MySQL
             </div>
           </div>
@@ -119,9 +119,12 @@
         <div class="contents">
           <div> 
             <span style="font-weight: bold;">스마트파인더 화면</span><br>
-            제주도의 위치(제주시, 서귀포시, 제주도), 카테고리 (음식점, 관광지, 숙박) 표출 및 찜 기능을 이용한 여행 경로를 확인<br>
+            DB에 저장된 제주도 관광지 데이터를 카카오 API를 이용하여 지도에 표출<br>
             <br>
-            찜 버튼을 누를 시 지도의 마커를 연결하여 직선 경로 표시
+            <span class="contents_desc">
+              제주도의 위치(제주시, 서귀포시, 제주도), 카테고리 (음식점, 관광지, 숙박) 표출 및 찜 기능을 이용한 여행 경로를 확인<br>
+              찜 버튼을 누를 시 지도의 마커를 연결하여 직선 경로 표시
+            </span>
           </div>
         </div>
       </div>
