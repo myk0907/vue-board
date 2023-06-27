@@ -42,8 +42,8 @@
       
       <div class="contents">
         <div class="header_2">역할</div>
-        <li>쇼핑몰 목록 DB 구축</li>
-        <li>상품 리스트, 상세, 장바구니, 주문서 주문확인, 배송현황 페이지 프론트, 백엔드 구축</li>
+        <li>쇼핑몰 상품 목록 DB 구축</li>
+        <li>상품 리스트, 상세, 장바구니, 주문서 주문확인, 배송현황 페이지 프론트&백엔드 구축</li>
       </div>
 
       <div class="contents">
@@ -102,11 +102,14 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span style="font-weight: bold;">메인 화면</span><br>
-            수집된 제주도 관광지 데이터를 DB에 저장하여 카카오 API를 이용한 지도에 표출하였다.<br>
+            <span class="image_title">메인 화면</span><br>
+            <span>
+              대표 상품 이미지와 각 메뉴에 바로 이동이 가능한 메인 화면<br>
+            </span>
             <br>
-            제주도의 위치(제주시, 서귀포시, 제주도), 카테고리 (음식점, 관광지, 숙박) 표출 및 찜 기능을 이용한 여행 경로를 확인<br>
-            찜 버튼을 누를 시 지도의 마커를 연결하여 직선 경로 표시
+            <span class="contents_desc">
+              대표상품 이미지가 순차적으로 나올 수 있게 하였고, 상품, 리뷰, 이벤트, 장바구니, 관리자페이지 등 바로 ??????????
+            </span>
           </div>
         </div>
       </div>
@@ -115,17 +118,21 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <img src="../../assets/img/project/shop/www_shop_2.png" style="width: 100%">
+            <img class="img-border" src="../../assets/img/project/shop/www_shop_2.png" style="width: 100%">
           </div>
         </div>
       </div>
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span style="font-weight: bold;">상품 리스트 화면</span><br>
-            ㅇㅇㅇㅇㅇㅇㅇㅇ<br>
+            <span class="image_title">상품 목록 화면</span><br>
+            <span>
+              DB에 구축된 상품 리스트 표출 및 검색 기능 구현<br>
+            </span>
             <br>
-            ㅇㅇㅇㅇㅇㅇㅇㅇㅇ
+            <span class="contents_desc">
+              상품의 카테고리를 나누어 상품 리스트를 표출하고 검색 기능을 사용하여 포함되는 단어를 서치할 수 있게 함
+            </span>
           </div>
         </div>
       </div>
@@ -134,17 +141,21 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <img src="../../assets/img/project/shop/www_shop_2_1.png" style="width: 100%">
+            <img class="img-border" src="../../assets/img/project/shop/www_shop_2_1.png" style="width: 100%">
           </div>
         </div>
       </div>
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span style="font-weight: bold;">상품 상세 화면</span><br>
-            ㅇㅇㅇㅇㅇㅇ<br>
+            <span class="image_title">상품 상세 화면</span><br>
+            <span>
+              DB에 구축된 상품의 상세정보 및 리뷰정보 표출
+            </span>
             <br>
-            ㅇㅇㅇㅇㅇㅇ
+            <span class="contents_desc">
+              DB에 구축된 상품의 상세정보와 리뷰 정보를 표출하였고, 장바구니 또는 바로 구매 기능을 추가함
+            </span>
           </div>
         </div>
       </div>
@@ -153,158 +164,22 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <img src="../../assets/img/project/shop/www_shop_3.png" style="width: 100%">
+            <img class="img-border" src="../../assets/img/project/shop/www_shop_6.png" style="width: 100%">
           </div>
         </div>
       </div>
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span style="font-weight: bold;">스마트파인더 화면</span><br>
-            수집된 제주도 관광지 데이터를 DB에 저장하여 카카오 API를 이용한 지도에 표출하였다.<br>
+            <span class="image_title">마이페이지 개인정보 수정 화면</span><br>
+            <span>
+              DB에 저장된 회원 정보 수정<br>
+
+            </span>
             <br>
-            제주도의 위치(제주시, 서귀포시, 제주도), 카테고리 (음식점, 관광지, 숙박) 표출 및 찜 기능을 이용한 여행 경로를 확인<br>
-            찜 버튼을 누를 시 지도의 마커를 연결하여 직선 경로 표시
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="group_row box-2">
-        <div class="contents">
-          <div> 
-            <img src="../../assets/img/project/shop/www_shop_4.png" style="width: 100%">
-          </div>
-        </div>
-      </div>
-      <div class="group_row box-2">
-        <div class="contents">
-          <div> 
-            <span style="font-weight: bold;">스마트파인더 화면</span><br>
-            수집된 제주도 관광지 데이터를 DB에 저장하여 카카오 API를 이용한 지도에 표출하였다.<br>
-            <br>
-            제주도의 위치(제주시, 서귀포시, 제주도), 카테고리 (음식점, 관광지, 숙박) 표출 및 찜 기능을 이용한 여행 경로를 확인<br>
-            찜 버튼을 누를 시 지도의 마커를 연결하여 직선 경로 표시
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="group_row box-2">
-        <div class="contents">
-          <div> 
-            <img src="../../assets/img/project/shop/www_shop_5.png" style="width: 100%">
-          </div>
-        </div>
-      </div>
-      <div class="group_row box-2">
-        <div class="contents">
-          <div> 
-            <span style="font-weight: bold;">스마트파인더 화면</span><br>
-            수집된 제주도 관광지 데이터를 DB에 저장하여 카카오 API를 이용한 지도에 표출하였다.<br>
-            <br>
-            제주도의 위치(제주시, 서귀포시, 제주도), 카테고리 (음식점, 관광지, 숙박) 표출 및 찜 기능을 이용한 여행 경로를 확인<br>
-            찜 버튼을 누를 시 지도의 마커를 연결하여 직선 경로 표시
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="group_row box-2">
-        <div class="contents">
-          <div> 
-            <img src="../../assets/img/project/shop/www_shop_6.png" style="width: 100%">
-          </div>
-        </div>
-      </div>
-      <div class="group_row box-2">
-        <div class="contents">
-          <div> 
-            <span style="font-weight: bold;">스마트파인더 화면</span><br>
-            수집된 제주도 관광지 데이터를 DB에 저장하여 카카오 API를 이용한 지도에 표출하였다.<br>
-            <br>
-            제주도의 위치(제주시, 서귀포시, 제주도), 카테고리 (음식점, 관광지, 숙박) 표출 및 찜 기능을 이용한 여행 경로를 확인<br>
-            찜 버튼을 누를 시 지도의 마커를 연결하여 직선 경로 표시
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="group_row box-2">
-        <div class="contents">
-          <div> 
-            <img src="../../assets/img/project/shop/www_shop_7.png" style="width: 100%">
-          </div>
-        </div>
-      </div>
-      <div class="group_row box-2">
-        <div class="contents">
-          <div> 
-            <span style="font-weight: bold;">스마트파인더 화면</span><br>
-            수집된 제주도 관광지 데이터를 DB에 저장하여 카카오 API를 이용한 지도에 표출하였다.<br>
-            <br>
-            제주도의 위치(제주시, 서귀포시, 제주도), 카테고리 (음식점, 관광지, 숙박) 표출 및 찜 기능을 이용한 여행 경로를 확인<br>
-            찜 버튼을 누를 시 지도의 마커를 연결하여 직선 경로 표시
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="group_row box-2">
-        <div class="contents">
-          <div> 
-            <img src="../../assets/img/project/shop/www_shop_8.png" style="width: 100%">
-          </div>
-        </div>
-      </div>
-      <div class="group_row box-2">
-        <div class="contents">
-          <div> 
-            <span style="font-weight: bold;">스마트파인더 화면</span><br>
-            수집된 제주도 관광지 데이터를 DB에 저장하여 카카오 API를 이용한 지도에 표출하였다.<br>
-            <br>
-            제주도의 위치(제주시, 서귀포시, 제주도), 카테고리 (음식점, 관광지, 숙박) 표출 및 찜 기능을 이용한 여행 경로를 확인<br>
-            찜 버튼을 누를 시 지도의 마커를 연결하여 직선 경로 표시
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="group_row box-2">
-        <div class="contents">
-          <div> 
-            <img src="../../assets/img/project/shop/www_shop_9.png" style="width: 100%">
-          </div>
-        </div>
-      </div>
-      <div class="group_row box-2">
-        <div class="contents">
-          <div> 
-            <span style="font-weight: bold;">스마트파인더 화면</span><br>
-            수집된 제주도 관광지 데이터를 DB에 저장하여 카카오 API를 이용한 지도에 표출하였다.<br>
-            <br>
-            제주도의 위치(제주시, 서귀포시, 제주도), 카테고리 (음식점, 관광지, 숙박) 표출 및 찜 기능을 이용한 여행 경로를 확인<br>
-            찜 버튼을 누를 시 지도의 마커를 연결하여 직선 경로 표시
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="group_row box-2">
-        <div class="contents">
-          <div> 
-            <img src="../../assets/img/project/shop/www_shop_10.png" style="width: 100%">
-          </div>
-        </div>
-      </div>
-      <div class="group_row box-2">
-        <div class="contents">
-          <div> 
-            <span style="font-weight: bold;">스마트파인더 화면</span><br>
-            수집된 제주도 관광지 데이터를 DB에 저장하여 카카오 API를 이용한 지도에 표출하였다.<br>
-            <br>
-            제주도의 위치(제주시, 서귀포시, 제주도), 카테고리 (음식점, 관광지, 숙박) 표출 및 찜 기능을 이용한 여행 경로를 확인<br>
-            찜 버튼을 누를 시 지도의 마커를 연결하여 직선 경로 표시
+            <span class="contents_desc">
+              생일, 주소 등 회원정보를 수정할 수 있음.
+            </span>
           </div>
         </div>
       </div>

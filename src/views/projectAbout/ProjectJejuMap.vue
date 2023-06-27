@@ -41,8 +41,8 @@
       
       <div class="contents">
         <div class="header_2">역할</div>
-        <li>카카오 지도 API를 활용한 제주지역 지도 구현 및 장소 추가 기능 구현</li>
-        <li>찜 버튼을 활용한 여행 경로 추가 및 쿠키 저장 기능 구현</li>
+        <li>카카오 지도 API를 활용한 제주도 지도 및 직선경로 표출 기능 구현</li>
+        <li>관광지역 찜 기능 및 여행 경로 쿠키 저장 기능 구현</li>
       </div>
 
       <div class="contents">
@@ -90,7 +90,7 @@
 
     <!-- 화면 설명 -->
     <h1 class="header_1" style="margin-left: 20px;">화면 설명</h1>
-    <div>
+    <!-- <div>
       <div class="group_row box-2">
         <div class="contents">
           <div> 
@@ -101,12 +101,12 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span style="font-weight: bold;">메인 페이지</span><br>
+            <span class="image_title">메인 페이지</span><br>
             놀당갑서의 메인페이지로 제주도 또는 서귀포 중 선택하여 스마트 파인더 페이지로 이동 가능
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div>
       <div class="group_row box-2">
         <div class="contents">
@@ -118,12 +118,14 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span style="font-weight: bold;">스마트파인더 화면</span><br>
-            DB에 저장된 제주도 관광지 데이터를 카카오 API를 이용하여 지도에 표출<br>
+            <span class="image_title">스마트파인더 화면</span><br>
+            <span>
+              카카오 Maps API를 이용하여 제주도 관광지 데이터 표출<br>
+            </span>
             <br>
             <span class="contents_desc">
-              제주도의 위치(제주시, 서귀포시, 제주도), 카테고리 (음식점, 관광지, 숙박) 표출 및 찜 기능을 이용한 여행 경로를 확인<br>
-              찜 버튼을 누를 시 지도의 마커를 연결하여 직선 경로 표시
+              네이버, 다음 등 크롤링을 통해 구축한 제주도의 음식점, 관광지, 숙박 데이터를 표출함<br>
+              찜 버튼 클릭 시 클릭된 목록을 확인할 수 있도록 하였고, 지도의 마커를 연결하여 직선 경로를 표시함
             </span>
           </div>
         </div>
@@ -140,8 +142,16 @@
       <div class="group_row box-2">
         <div class="contents">
           <div>
-            <span style="font-weight: bold;">제주도 정보</span><br>
-            최근 5년간의 제주도 방문객 추이와 현재 제주도 날씨 정보 제공
+            <span class="image_title">제주도정보 화면</span><br>
+            <span>
+              AmCharts API를 이용하여 제주도 관광객 데이터 표출<br>
+              OpenWeather의 API를 이용하여 제주도의 현재 날씨 정보 표출<br>
+            </span>
+            <br>
+            <span class="contents_desc">
+              한국관광데이터랩에서 2018년 ~ 2022년까지의 제주도 관광객 데이터를 수집하여 DB에 구축하고 표출함<br>
+              제주도의 현재 날씨정보를 그래픽과 함께 표출함
+            </span>
           </div>
         </div>
       </div>
