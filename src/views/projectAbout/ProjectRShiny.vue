@@ -33,8 +33,7 @@
       
       <div class="contents">
         <div class="header_2">역할</div>
-        <li>한반도 장기간 연평균 표층수온 데이터 수집, DB 구축 및 시각화 페이지 기획, 제작</li>
-        <li>한반도 해양생태계 생물지수 데이터 수집, DB구축 및 시각화 페이지 기획, 제작</li>
+        <li>한반도 장기간 연평균 표층수온 및 해양생태계 생물지수 데이터 수집, DB 구축 및 시각화 페이지 기획, 제작</li>
       </div>
 
       <div class="contents">
@@ -55,7 +54,13 @@
           <div class="group_row txt_center">   
             <img class="lang_logo" src="../../assets/lang_logo/leaflet-svgrepo-com.svg">
             <div class="lang_logo_title">
-              leaflet
+              Leaflet
+            </div>
+          </div>
+          <div class="group_row txt_center">   
+            <img class="lang_logo" src="../../assets/lang_logo/plot_ly-official.svg">
+            <div class="lang_logo_title">
+              plotly
             </div>
           </div>
           <div class="group_row txt_center">   
@@ -65,15 +70,15 @@
             </div>
           </div>
           <div class="group_row txt_center">   
-            <img class="lang_logo" src="../../assets/lang_logo/javascript-svgrepo-com.svg">
+            <img class="lang_logo" src="../../assets/lang_logo/postgresql-svgrepo-com.svg">
             <div class="lang_logo_title">
-              JavaScript
+              Postgre
             </div>
           </div>
           <div class="group_row txt_center">   
-            <img class="lang_logo" src="../../assets/lang_logo/mysql-svgrepo-com.svg">
+            <img class="lang_logo" src="../../assets/lang_logo/qgis-logo.svg">
             <div class="lang_logo_title">
-              MySQL
+              QGIS
             </div>
           </div>
         </div>
@@ -86,20 +91,23 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <img src="../../assets/img/project/shop/www_shop_1.png" style="width: 100%">
+            <img src="../../assets/img/project/sealab/sealab_1.png" style="width: 100%">
           </div>
         </div>
       </div>
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">메인 화면</span><br>
+            <span class="image_title">연평균 표층수온 화면</span><br>
             <span>
-              대표 상품 이미지와 각 메뉴에 바로 이동이 가능한 메인 화면<br>
+              plotly라이브러리를 이용한 연평균 표층수온 시계열 그래프 제작<br>
+              Leaflet 라이브러리를 이용한 연평균 표층수온 래스터 이미지 표출<br>
             </span>
             <br>
             <span class="contents_desc">
-              대표상품 이미지가 순차적으로 나올 수 있게 하였고, 상품, 리뷰, 이벤트, 장바구니, 관리자페이지 등 바로 ??????????
+              COBE에서 수집한 1도간격의 연평균 표층수온 데이터를 동해, 서해, 남해로 구분하여 시계열 그래프를 작성하고,
+              보간법을 이용하여 래스터로 제작하여 표출하였음.<br>
+              레인지 바를 이용하여 사용자가 지정한 연도의 평균 데이터를 확인할 수 있음.
             </span>
           </div>
         </div>
@@ -109,7 +117,7 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <img class="img-border" src="../../assets/img/project/shop/www_shop_2.png" style="width: 100%">
+            <img class="img-border" src="../../assets/img/project/sealab/sealab_2.png" style="width: 100%">
           </div>
         </div>
       </div>
@@ -132,7 +140,7 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <img class="img-border" src="../../assets/img/project/shop/www_shop_2_1.png" style="width: 100%">
+            <img class="img-border" src="../../assets/img/project/sealab/sealab_3.png" style="width: 100%">
           </div>
         </div>
       </div>
@@ -146,30 +154,6 @@
             <br>
             <span class="contents_desc">
               DB에 구축된 상품의 상세정보와 리뷰 정보를 표출하였고, 장바구니 또는 바로 구매 기능을 추가함
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="group_row box-2">
-        <div class="contents">
-          <div> 
-            <img class="img-border" src="../../assets/img/project/shop/www_shop_6.png" style="width: 100%">
-          </div>
-        </div>
-      </div>
-      <div class="group_row box-2">
-        <div class="contents">
-          <div> 
-            <span class="image_title">마이페이지 개인정보 수정 화면</span><br>
-            <span>
-              DB에 저장된 회원 정보 수정<br>
-
-            </span>
-            <br>
-            <span class="contents_desc">
-              생일, 주소 등 회원정보를 수정할 수 있음.
             </span>
           </div>
         </div>
