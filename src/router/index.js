@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import PortfolioMain from '@/views/PortfolioMain.vue'
+import MainPage from '@/views/MainPage.vue'
 import BoardList from '@/views/board/BoardList.vue'
 import ProjectAbout from '@/views/ProjectAbout.vue'
 
@@ -7,6 +8,12 @@ const routes = [
   // 메인페이지
   {
     path: '/',
+    name: 'MainPage',
+    component: MainPage
+  },
+  // 포트폴리오 메인페이지
+  {
+    path: '/portfolio',
     name: 'PortfolioMain',
     component: PortfolioMain
   },

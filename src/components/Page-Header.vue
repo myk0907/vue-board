@@ -2,9 +2,10 @@
 <template>
   <header>
     <div id="nav">
-      <router-link to="/" @click="pageHeaderClick($event)" id="page_home" style="text-decoration-line: none;">Home</router-link> |
-      <router-link to="/project" @click="pageHeaderClick($event)" id="page_project" style="text-decoration-line: none;">About</router-link> |
-      <router-link to="/board/list" @click="pageHeaderClick($event)" id="page_board" style="text-decoration-line: none;">게시판</router-link>
+      <router-link to="/" @click="pageHeaderClick($event)" id="page_home" style="text-decoration-line: none;">Main</router-link>  |
+      <router-link to="/portfolio" @click="pageHeaderClick($event)" id="portfolio" style="text-decoration-line: none;">Portfolio</router-link>  |
+      <router-link to="/project" @click="pageHeaderClick($event)" id="page_project" style="text-decoration-line: none;">Project</router-link>  |
+      <!-- <router-link to="/board/list" @click="pageHeaderClick($event)" id="page_board" style="text-decoration-line: none;">게시판</router-link> -->
     </div>
   </header>
   <hr/>
@@ -28,5 +29,7 @@ export default {
 </script>
 
 <style scoped>
-
+#nav {
+  text-align: right;
+}
 </style>
