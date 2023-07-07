@@ -17,7 +17,16 @@
     <!-- 가짜 끝 -->
   
     <div class="real_data">
-    <h1 style="margin: 50px; font-size: 40px">해(海)봄 교실</h1>
+    <h1 style="margin: 50px; font-size: 40px">JOISS 해(海)봄 교실</h1>
+
+    <div class="git_button" id="git_button_jeju" style="text-align: right;">
+      <a href='https://joiss.kr/' target='_blank'>
+        <img src="../../assets/img/project/sealab/wh-joiss-logo.png" style="width: 40px;">
+      </a>
+      <a href='http://shiny.kesti.info/' target='_blank'>
+        <img src="../../assets/svg/github-icon-svgrepo-com.svg" style="width: 40px;">
+      </a>
+    </div>
     
     <!-- 프로젝트 설명 -->
     <div style="margin-left: 20px;">
@@ -33,7 +42,7 @@
       
       <div class="contents">
         <div class="header_2">역할</div>
-        <li>한반도 장기간 연평균 표층수온 및 해양생태계 생물지수 데이터 수집, DB 구축 및 시각화 페이지 기획, 제작</li>
+        <li>데이터 수집, DB 구축 및 시각화 페이지 기획, 제작</li>
       </div>
 
       <div class="contents">
@@ -98,7 +107,7 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">연평균 표층수온 화면</span><br>
+            <span class="image_title">장기간 연평균 표층수온 화면</span><br>
             <span>
               plotly라이브러리를 이용한 연평균 표층수온 시계열 그래프 제작<br>
               Leaflet 라이브러리를 이용한 연평균 표층수온 래스터 이미지 표출<br>
@@ -106,7 +115,7 @@
             <br>
             <span class="contents_desc">
               COBE에서 수집한 1도간격의 연평균 표층수온 데이터를 동해, 서해, 남해로 구분하여 시계열 그래프를 작성하고,
-              보간법을 이용하여 래스터로 제작하여 표출하였음.<br>
+              보간법을 적용한 래스터로 제작하여 표출하였음.<br>
               레인지 바를 이용하여 사용자가 지정한 연도의 평균 데이터를 확인할 수 있음.
             </span>
           </div>
@@ -124,13 +133,13 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">상품 목록 화면</span><br>
+            <span class="image_title">장기간 계절별 연평균 표층수온 화면</span><br>
             <span>
-              DB에 구축된 상품 리스트 표출 및 검색 기능 구현<br>
+              Leaflet 라이브러리를 이용한 연평균 표층수온 래스터 이미지 표출<br>
             </span>
             <br>
             <span class="contents_desc">
-              상품의 카테고리를 나누어 상품 리스트를 표출하고 검색 기능을 사용하여 포함되는 단어를 서치할 수 있게 함
+              COBE에서 수집한 1도간격의 연평균 표층수온 데이터를 4계절로 나누고, 보간법을 적용한 래스터로 제작하여 표출하였음.
             </span>
           </div>
         </div>
@@ -147,13 +156,15 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">상품 상세 화면</span><br>
+            <span class="image_title">생물다양성 화면</span><br>
             <span>
-              DB에 구축된 상품의 상세정보 및 리뷰정보 표출
+              plotly라이브러리를 이용한 연평균 생물지수 박스 그래프 제작<br>
+              Leaflet 라이브러리를 이용한 생물지수 표출<br>
             </span>
             <br>
             <span class="contents_desc">
-              DB에 구축된 상품의 상세정보와 리뷰 정보를 표출하였고, 장바구니 또는 바로 구매 기능을 추가함
+              해양생태계 기본조사 자료를 수집하여 연평균으로 계산하여 색상에 따른 공간분포도를 작성하였고, 
+              6개 권역의 shp파일을 만들어 지도에 표출하고 권역 클릭시 각 권역에 맞는 생물지수 박스 그래프가 나오도록 제작하였음.
             </span>
           </div>
         </div>

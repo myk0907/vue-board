@@ -1,38 +1,17 @@
 <!-- MainPage.vue -->
 <template>
-  <div :style="imageStyle" class="image-container">
-    <img :src="imageUrl" alt="Image" />
-  </div>
+  <div class="contents">
+      <div class="group_row" style="margin-right: 50px">
+        <img src="../assets/img/my_pic.png" style="width: 250px">
+      </div>
+    
+    </div>
 </template>
 
 
 <script>
-import { ref, onMounted } from 'vue';
 
 export default {
-  setup() {
-    const imageUrl = '../assets/img/test_img.jpg';
-    const imageStyle = ref({
-      position: 'absolute',
-      top: '0px',
-      left: '0px',
-      transition: 'transform 0.3s ease-in-out', // transition 속성 추가
-    });
-    const distance = 300; // 300px로 변경
-
-    const moveImage = () => {
-      imageStyle.value.transform = `translateX(${distance}px)`; // transform 속성 사용
-    };
-
-    onMounted(() => {
-      moveImage();
-    });
-
-    return {
-      imageUrl,
-      imageStyle,
-    };
-  },
 };
 </script>
 
