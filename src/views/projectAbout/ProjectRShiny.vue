@@ -19,12 +19,17 @@
     <div class="real_data">
     <h1 style="margin: 50px; font-size: 40px">JOISS 해(海)봄 교실</h1>
 
-    <div class="git_button" id="git_button_jeju" style="text-align: right;">
-      <a href='https://joiss.kr/' target='_blank'>
-        <img src="../../assets/img/project/sealab/wh-joiss-logo.png" style="width: 40px;">
+    <div class="git_button" id="git_button_jeju" style="display: flex; justify-content: end; align-items: center;">
+      <a href='https://joiss.kr/' target='_blank' style="margin-right: 40px;">
+        <img src="../../assets/img/project/sealab/wh-joiss-logo.png" style="width: 200px; filter: invert(100%) sepia(100%) saturate(556%) hue-rotate(169deg) brightness(98%) contrast(94%);">
       </a>
       <a href='http://shiny.kesti.info/' target='_blank'>
-        <img src="../../assets/svg/github-icon-svgrepo-com.svg" style="width: 40px;">
+        <div class="group_row txt_center">   
+          <img src="../../assets/img/project/sealab/sealab-logo-blue.png" style="width: 40px;">
+          <div class="lang_logo_title" style="margin-top : 10px;">
+            해(海)봄 교실
+          </div>
+        </div>
       </a>
     </div>
     
@@ -36,13 +41,14 @@
           <span style="font-weight: bold;">수행기간</span>
           <li>2021-05 ~ 2021-12</li>
           <span style="font-weight: bold;">요약</span>
-          <li>중고등학교 지구과학 수업시간에 활용 할 수 있는 웹 페이지</li>
+          <li>JOISS : 한반도 해양과학 자료 통합 제공 포털</li>
+          <li>해봄교실 교육 앱 : 중고등학교 지구과학 수업시간에 활용 할 수 있는 웹 페이지</li>
         </div>
       </div>
       
       <div class="contents">
         <div class="header_2">역할</div>
-        <li>데이터 수집, DB 구축 및 시각화 페이지 기획, 제작</li>
+        <li>데이터 수집, 전처리, DB 구축 및 시각화 페이지 기획, 제작</li>
       </div>
 
       <div class="contents">
@@ -96,6 +102,28 @@
 
     <!-- 화면 설명 -->
     <h1 class="header_1" style="margin-left: 20px;">화면 설명</h1>
+    <div>
+      <div class="group_row box-2">
+        <div class="contents">
+          <div> 
+            <img src="../../assets/img/project/sealab/sealab_1.png" style="width: 100%">
+          </div>
+        </div>
+      </div>
+      <div class="group_row box-2">
+        <div class="contents">
+          <div> 
+            <span class="image_title">해양데이터 제공 화면</span><br>
+              국내외 해양데이터 수집<br>
+              R을 이용한 데이터 전처리 후 Postgres DB에 저장<br>
+            <br>
+            <span class="contents_desc">
+              해양R&D 과제 자료와 국내외 해양과학자료 수집 후 R을 이용하여 전처리를 진행하고 Postgres DB에 저장하여 사용자들에게 제공함
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
     <div>
       <div class="group_row box-2">
         <div class="contents">
