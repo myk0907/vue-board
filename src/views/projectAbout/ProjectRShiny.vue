@@ -17,20 +17,22 @@
     <!-- 가짜 끝 -->
   
     <div class="real_data">
-    <h1 style="margin: 50px; font-size: 40px">JOISS 해(海)봄 교실</h1>
-
-    <div class="git_button" id="git_button_jeju" style="display: flex; justify-content: end; align-items: center;">
-      <a href='https://joiss.kr/' target='_blank' style="margin-right: 40px;">
-        <img src="../../assets/img/project/sealab/wh-joiss-logo.png" style="width: 200px; filter: invert(100%) sepia(100%) saturate(556%) hue-rotate(169deg) brightness(98%) contrast(94%);">
-      </a>
-      <a href='http://shiny.kesti.info/' target='_blank'>
-        <div class="group_row txt_center">   
-          <img src="../../assets/img/project/sealab/sealab-logo-blue.png" style="width: 40px;">
-          <div class="lang_logo_title" style="margin-top : 10px;">
-            해(海)봄 교실
+    <div style="height: 200px;">
+      <h1 style="margin: 50px; font-size: 40px">JOISS 해(海)봄 교실</h1>
+      
+      <div class="git_button" id="git_button_jeju" style="display: flex; justify-content: end; align-items: center;">
+        <a href='https://joiss.kr/' target='_blank' style="margin-right: 40px;">
+          <img src="../../assets/img/project/sealab/wh-joiss-logo.png" style="width: 200px; filter: invert(100%) sepia(100%) saturate(556%) hue-rotate(169deg) brightness(98%) contrast(94%);">
+        </a>
+        <a href='http://shiny.kesti.info/' target='_blank'>
+          <div class="group_row txt_center">   
+            <img src="../../assets/img/project/sealab/sealab-logo-blue.png" style="width: 40px;">
+            <div class="lang_logo_title" style="margin-top : 10px;">
+              해(海)봄 교실
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
     </div>
     
     <!-- 프로젝트 설명 -->
@@ -106,7 +108,7 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <img src="../../assets/img/project/sealab/sealab_1.png" style="width: 100%">
+            <img src="../../assets/img/project/sealab/joiss_1.png" style="width: 100%">
           </div>
         </div>
       </div>

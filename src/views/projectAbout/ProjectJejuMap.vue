@@ -17,13 +17,15 @@
     <!-- 가짜 끝 -->
 
     <div class="real_data">
-    <h1 style="margin: 50px; font-family: 'ulsanjunggu'; font-size: 55px">놀당갑서</h1>
-    
-    <div class="git_button" id="git_button_jeju" style="text-align: right;">
-      <a href='https://github.com/myk0907/final-project_jejuMap' target='_blank'>
-        <img src="../../assets/svg/github-icon-svgrepo-com.svg" style="width: 40px;">
-      </a>
-    </div>
+      <div style="height: 200px;">
+        <h1 style="margin: 50px; font-family: 'ulsanjunggu'; font-size: 55px">놀당갑서</h1>
+        
+        <div class="git_button" id="git_button_jeju" style="text-align: right; ">
+          <a href='https://github.com/myk0907/final-project_jejuMap' target='_blank'>
+            <img src="../../assets/svg/github-icon-svgrepo-com.svg" style="width: 40px;">
+          </a>
+        </div>
+      </div>
 
     <!-- 프로젝트 설명 -->
     <div style="margin-left: 20px;">

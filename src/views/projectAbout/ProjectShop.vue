@@ -17,14 +17,16 @@
     <!-- 가짜 끝 -->
   
     <div class="real_data">
-    <!-- WWW 로고 -->
-    <img src="../../assets/img/project/shop/www_shop_logo.png" style="width: 200px;">
-    
-    <div class="git_button" id="git_button_shop" style="text-align: right;">
-      <a href='https://github.com/myk0907/project_shop' target='_blank'>
-        <img src="../../assets/svg/github-icon-svgrepo-com.svg" style="width: 40px;">
-      </a>
-    </div>
+      <div style="height: 200px;">
+        <!-- WWW 로고 -->
+        <h1 style="margin: 50px 0px 25px 0px ;"><img src="../../assets/img/project/shop/www_shop_logo.png" style="width: 200px;"></h1>
+        
+        <div class="git_button" id="git_button_shop" style="text-align: right;">
+          <a href='https://github.com/myk0907/project_shop' target='_blank'>
+            <img src="../../assets/svg/github-icon-svgrepo-com.svg" style="width: 40px;">
+          </a>
+        </div>
+      </div>
 
     <!-- 프로젝트 설명 -->
     <div style="margin-left: 20px;">
