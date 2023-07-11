@@ -95,6 +95,12 @@ html, body{
     position: relative;
 }
 
+.equal-space {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
 .lang_logo {
     width: 40px;
     height: 40px;

@@ -89,7 +89,7 @@
           <div class="group_row txt_center">   
             <img class="lang_logo" src="../../assets/lang_logo/postgresql-svgrepo-com.svg">
             <div class="lang_logo_title">
-              Postgre
+              PostgreSQL
             </div>
           </div>
           <div class="group_row txt_center">   

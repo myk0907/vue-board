@@ -2,7 +2,6 @@
 <template>
   <div class="about fake_data">
     <h1 style="margin: 50px">This is an about page</h1>
-    <!-- <h1 style="margin: 50px">웹개발자 김민영 포트폴리오</h1> -->
     
     <!-- 소개 -->
     <div class="contents">
@@ -143,7 +142,7 @@
     </div> -->
     <!-- https://www.svgrepo.com/collection/twemoji-emojis/1  svg 이모지 사이트-->
 
-    <!-- 경력 -->
+    <!-- 프로필 경력 -->
     <h1 class="header_1"><img src="../assets/svg/magnifying-glass.svg"> Profile</h1>
     <h1 class="division_line"></h1>
     <div>
@@ -159,7 +158,7 @@
             <li>Spring Boot를 이용한 웹 솔루션 제작</li>
             <li>Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업을 진행함.</li>
             <li>에러 수정 및 기능 개편과, 신규 페이지의 기능 추가 작업을 진행함.</li>
-            <li>Python과 FastAPI를 이용하여 통신한 데이터를 데이터베이스에 저장하고 시각화함.</li>
+            <li>Python과 FastAPI를 이용하여 통신한 데이터를 PostgreSQL DB에 저장하고 시각화함.</li>
           </div>
         </div>
         <div style="margin-top: 40px;">
@@ -169,12 +168,12 @@
           </div>
           <div class="group_row" style="width: 75%;">
             관할해역 해양정보 공동활용 구축 연구<span class="contents_desc">&nbsp;2017.05 ~ 2022.02(4년 10개월)</span>
-            <li>해양데이터 포털에서 데이터를 수집 후 R을 활용하여 데이터 전처리를 진행하고 PostgreSQL DB에 적재하였음.</li>
-            <li>해양 데이터 시각화 페이지를 기획하고 R의 Shiny 라이브러리를 이용한 Interactive web app 을 개발하여 사용자들에게 제공하였음</li>
+            <li>해양데이터 포털에서 데이터를 수집 후 R을 활용하여 데이터 전처리를 진행하고 PostgreSQL DB에 적재함.</li>
+            <li>해양 데이터 시각화 페이지를 기획하고 R의 Shiny 라이브러리를 이용한 Interactive web app 을 개발하여 사용자들에게 제공함.</li>
             <br>
             국내 블루카본 정보시스템 구축 및 평가관리기술 개발<span class="contents_desc">&nbsp;2017.05~2022.02(4년 10개월)</span>
-            <li>블루카본과 관계된 갯벌, 식생지역, 매립지 등의 정보를 수집하였고, 갯벌과 식생지역을 드론으로 촬영하고 추출된 데이터를 데이터베이스에 적재하였음.</li>
-            <li>드론으로 촬영하여 나온 shp파일을 수정하고 TIFF파일로 추출하여 저장하고, shp파일의 지리 정보를 PostgreSQL에 저장하였음.</li>
+            <li>블루카본과 관계된 갯벌, 식생지역, 매립지 등의 정보를 수집하였고, 갯벌과 식생지역을 드론으로 촬영하고 추출된 데이터를 PostgreSQL DB에 적재함.</li>
+            <li>드론으로 촬영한 TIFF파일을 추출하여 저장하고, shp파일 지리 정보를 PostgreSQL DB에 저장함.</li>
           </div>
         </div>
       </div>
@@ -186,7 +185,7 @@
         <li>Spring Framework를 기반으로 웹 페이지 기획, 설계와 데이터베이스 활용을 통해 실무적인 기술을 익히고 빅데이터를 분산처리 할 수 있는 파이썬과 하둡 기술 학습</li>
       </div>
 
-      <div>
+      <div class="equal-space">
         <div class="group_row box-2 contents">
           <div class="header_2"><img src="../assets/svg/graduation-cap.svg"> 학력</div>
           한양대학교 해양융합과학과 <span class="contents_desc">&nbsp;2015.3 ~ 2017.2 졸업</span><br>
@@ -203,7 +202,7 @@
     <!-- 보유스킬 -->
     <h1 class="header_1"><img src="../assets/svg/hammer-and-wrench.svg"> Skills</h1>
     <h1 class="division_line"></h1>
-    <div class="contents real_data">
+    <div class="contents real_data equal-space">
       <div class="group_row box-3">
         <div class="header_2"><img src="../assets/svg/browser.svg"> 웹개발</div>
           <li>Spring Framework & JAVA</li>
@@ -239,7 +238,9 @@
       </div>
       <div class="group_row box-3">
         <div class="header_2"><img src="../assets/svg/database.svg"> 데이터베이스</div>
-          <li>SQL</li>
+          <li>PostgreSQL</li>
+          <li>MySQL</li>
+          <li>MariaDB</li>
 
           <!-- 
           SQL
@@ -327,8 +328,8 @@
     <h1 class="header_1"><img src="../assets/svg/mailbox.svg"> Contact</h1>
     <h1 class="division_line"></h1>
     <div class="contents">
-      <img src="../assets/svg/e-mail.svg" style="width: 20px"> myk0907000@gmail.com<br>
-      <img src="../assets/svg/phone.svg" style="width: 20px"> +82 10-1234-5678 
+      <img src="../assets/svg/e-mail.svg" style="width: 20px; margin-right: 10px;"> myk0907000@gmail.com<br>
+      <!-- <img src="../assets/svg/phone.svg" style="width: 20px; margin-right: 10px;"> +82 10-1234-5678  -->
     </div>
   </div>
 </template>

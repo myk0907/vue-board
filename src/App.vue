@@ -1,6 +1,8 @@
 <template>
   <PageHeader/> <!-- 헤더 컴포넌트 -->
-  <router-view/>  <!-- 페이지 이동이 표시될 곳 -->
+  <div class="custom-body">
+    <router-view/>  <!-- 페이지 이동이 표시될 곳 -->
+  </div>
   <PageFooter/> <!-- 푸터 컴포넌트 -->
 </template>
 
@@ -24,7 +26,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  width: 1280px;
+  /* width: 1280px; */
   margin: 0 auto;
 }
 
@@ -41,4 +43,9 @@ export default {
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+.custom-body {
+  width: 1280px; /* 너비를 1280px로 고정 */
+  margin: 0 auto; /* 가운데 정렬을 위한 마진 설정 */
+}
+
 </style>

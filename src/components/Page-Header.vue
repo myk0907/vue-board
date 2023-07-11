@@ -31,5 +31,7 @@ export default {
 <style scoped>
 #nav {
   text-align: right;
+  width: 1280px;
+  margin: 0 auto; /* 가운데 정렬을 위한 마진 설정 */
 }
 </style>
