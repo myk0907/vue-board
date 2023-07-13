@@ -30,9 +30,9 @@ export default {}
 
 <style scoped>
 .custom-footer-bg {
-  background-color: #24272D; 
-  height: 180px; color:white; 
-  margin-top: 50px;
+  /* background-color: #24272D;  */
+  height: 120px; color:white; 
+  /* margin-top: 50px; */
   padding: 16px;
   display: flex;
   align-items: center;

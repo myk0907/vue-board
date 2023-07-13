@@ -1,6 +1,6 @@
 <!-- PageAbout.vue -->
 <template>
-  <div class="project_jeju">
+  <div class="project_jeju custom-body">
     <!-- 가짜 -->
     <div class="fake_data">
     <h1 style="margin: 50px">This is an about page [3] </h1>

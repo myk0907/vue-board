@@ -31,6 +31,11 @@ html, body{
 }
 
 /* 기본 css */
+.custom-body {
+    width: 1280px; /* 너비를 1280px로 고정 */
+    margin: 0 auto; /* 가운데 정렬을 위한 마진 설정 */
+}
+
 .contents {
     text-align: left;
     vertical-align: top;
@@ -328,6 +333,16 @@ li::marker {
     background-color: #42b9835d;
     border-radius: 10px;
     box-shadow: inset 0px 0px 5px white;
+}
+
+/* 푸터 색 변경 */
+
+.custom-footer-bg-black {
+    background-color: #24272D;
+}
+
+.custom-footer-bg-blue {
+background-color: #99DBF5;
 }
 
 /* 폰트 */

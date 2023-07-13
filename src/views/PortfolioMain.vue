@@ -128,7 +128,7 @@
 
 
 
-  <div class="about real_data">
+  <div class="about real_data custom-body">
     <!-- <h1 style="margin: 50px">웹개발자 김민영 포트폴리오</h1> -->
     
     <!-- 소개 -->

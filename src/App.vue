@@ -1,17 +1,49 @@
 <template>
-  <PageHeader/> <!-- 헤더 컴포넌트 -->
-  <div class="custom-body">
-    <router-view/>  <!-- 페이지 이동이 표시될 곳 -->
+  <PageHeader/>
+  <!-- <div class="custom-body"> -->
+    <router-view/>
+    <!-- </div> -->
+  <div :class="pageBackgroundColorClass">
+    <PageFooter/>
   </div>
-  <PageFooter/> <!-- 푸터 컴포넌트 -->
 </template>
 
 <script>
+import { watch, ref } from 'vue';
+import { useRoute } from 'vue-router';
+
 import PageHeader from '@/components/Page-Header'
 import PageFooter from '@/components/Page-Footer'
 
 export default {
   name: 'App',
+  
+  setup() {
+
+    const route = useRoute();
+    let pageBackgroundColorClass = ref('custom-footer-bg-blue');
+  
+    watch(
+			() => route,
+			(from) => {
+        // path에 따라 푸터 배경 색 변경
+        let currentPage = from.path;
+        if(currentPage === '/'){
+          pageBackgroundColorClass.value = "custom-footer-bg-blue"
+        } else {
+          pageBackgroundColorClass.value = "custom-footer-bg-black"
+        }
+
+			},
+      {
+        deep: true
+      }
+    );
+    
+    return {
+      pageBackgroundColorClass,
+    };
+  },
   components: {
     PageFooter,
     PageHeader
@@ -43,9 +75,6 @@ export default {
 #nav a.router-link-exact-active {
   color: #42b983;
 }
-.custom-body {
-  width: 1280px; /* 너비를 1280px로 고정 */
-  margin: 0 auto; /* 가운데 정렬을 위한 마진 설정 */
-}
+
 
 </style>
