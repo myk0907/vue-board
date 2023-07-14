@@ -14,9 +14,9 @@
         </div>
 
         <!-- 깃 로고 -->
-        <div class="group_row" style="display: flex; align-items: center;">
+        <div class="group_row" style="display: flex; align-items: center; filter: brightness(0) invert(1);">
           <a href='https://github.com/myk0907/' target='_blank'>
-            <img src="../assets/svg/github-icon-svgrepo-com.svg" style="width: 40px; filter: brightness(0) invert(1);">
+            <img src="../assets/svg/github-icon-svgrepo-com.svg" style="width: 40px;">
           </a>
         </div>
       </div>
@@ -31,7 +31,8 @@ export default {}
 <style scoped>
 .custom-footer-bg {
   /* background-color: #24272D;  */
-  height: 120px; color:white; 
+  height: 120px; 
+  /* color:white;  */
   /* margin-top: 50px; */
   padding: 16px;
   display: flex;

@@ -339,10 +339,15 @@ li::marker {
 
 .custom-footer-bg-black {
     background-color: #24272D;
+    color: white;
 }
 
 .custom-footer-bg-blue {
-background-color: #99DBF5;
+    background-color: #A9D6E2;
+    /* background-color: #99DBF5; */
+    color: white;
+    /* background-color: #ffffff; */
+    /* color: black; */
 }
 
 /* 폰트 */
@@ -355,8 +360,8 @@ background-color: #99DBF5;
 
 /* -------------------------임시------------------------- */
 .real_data {
+    display: none
 }
 
 .fake_data {
-    display: none
 }
