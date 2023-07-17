@@ -1,6 +1,6 @@
 <template>
     <!--Waves Container-->
-    <div class="waves-container">
+    <!-- <div class="waves-container main-body">
       <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
         viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
         <defs>
@@ -13,14 +13,41 @@
           <use xlink:href="#gentle-wave" x="48" y="7" fill="rgb(169,214,226)" />
         </g>
       </svg>
+    </div> -->
+    <!--Waves end-->
+    
+    
+
+    <!--Waves Container-->
+    <div class="header">
+      <div>
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+          <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+          </defs>
+          <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(169,214,226,0.7)" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(169,214,226,0.5)" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(169,214,226,0.3)" />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="rgb(169,214,226)" />
+          </g>
+        </svg>
+      </div>
     </div>
     <!--Waves end-->
+
+    <div class="inner-header flex"> </div> 
+
     <!-- 파도 출처 -->
-    <!-- <div class="content flex" style="background-color: rgb(255, 255, 255);">  -->
     <div class="content flex" style="background-color: rgb(169,214,226);"> 
       <p>By.Goodkatz</p>
     </div>
     <!-- 파도 출처 끝 -->
+
+
+
+
 </template>
 
 <script>
@@ -36,12 +63,6 @@ body {
   margin:0;
 }
 
-h1 {
-  font-weight:300;
-  letter-spacing: 2px;
-  font-size:48px;
-}
-
 p {
   /* letter-spacing: 1px; */
   font-size:10px;
@@ -49,34 +70,30 @@ p {
   margin-right: 7px;
 }
 
+.header {
+  position:relative;
+  text-align:center;
+  color:white;
+}
+
+.inner-header {
+  height:62vh;
+  width:100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(169,214,226);
+}
+
 .main-body {
   position:relative;
   /* text-align:center; */
 }
 
-.logo {
-  width:50px;
-  fill:white;
-  padding-right:15px;
-  display:inline-block;
-  vertical-align: middle;
-}
-
-.inner-waves-contents {
-  height:65vh;
-  width:100%;
-  margin: 0;
-  padding: 0;
-  background-color: rgb(169,214,226); /* #99DBF5 */
-  /* background: linear-gradient(180deg, rgba(169,214,226,1) 0%, rgb(255, 255, 255) 80%); */
-}
-
 .flex { /*Flexbox for containers*/
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
-  /* text-align: center; */
-  justify-content: flex-end
+  text-align: center;
 }
 
 .waves {
@@ -90,8 +107,9 @@ p {
 
 .content {
   position:relative;
-  /* height:20vh; */
-  text-align:center;
+  height:15vh;
+  text-align:right;
+  vertical-align: top;
   background-color: white;
 }
 
@@ -132,9 +150,6 @@ p {
   }
   .content {
     height:30vh;
-  }
-  h1 {
-    font-size:24px;
   }
 }
 

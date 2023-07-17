@@ -32,11 +32,13 @@ export default {}
 .custom-footer-bg {
   /* background-color: #24272D;  */
   height: 120px; 
-  /* color:white;  */
+  color:white; 
   /* margin-top: 50px; */
   padding: 16px;
   display: flex;
   align-items: center;
+  position:relative;
+  bottom: 0px;
 }
 .custom-footer {
   width: 1280px; 
@@ -44,6 +46,7 @@ export default {}
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  z-index: 999;
 }
 
 </style>

@@ -344,7 +344,7 @@ li::marker {
 
 .custom-footer-bg-blue {
     background-color: #A9D6E2;
-    /* background-color: #99DBF5; */
+    /* background-color: transparent; */
     color: white;
     /* background-color: #ffffff; */
     /* color: black; */
@@ -360,8 +360,8 @@ li::marker {
 
 /* -------------------------임시------------------------- */
 .real_data {
-    display: none
 }
 
 .fake_data {
+    display: none
 }

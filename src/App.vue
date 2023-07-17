@@ -1,9 +1,7 @@
 <template>
   <PageHeader/>
-  <!-- <div class="custom-body"> -->
-    <router-view/>
-    <!-- </div> -->
-  <div :class="pageBackgroundColorClass">
+  <router-view/>
+  <div :class="pageBackgroundColorClass" class="footer-style">
     <PageFooter/>
   </div>
 </template>
@@ -76,5 +74,9 @@ export default {
   color: #42b983;
 }
 
-
+.footer-style {
+  bottom: 0px;
+  position: absolute;
+  width: 100vw;
+}
 </style>

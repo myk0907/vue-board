@@ -14,7 +14,7 @@ export default {
     const circleArray = [];
 
     const settings = {
-      maxCount: 40,
+      maxCount: 50, // 방울 갯수
       bounce: -0.01,
       force: -1.25,
       gravity: -0.0005,
@@ -129,8 +129,8 @@ export default {
         this.positionY = window.innerHeight;
         this.radius =
           Math.floor((Math.random() * window.innerWidth * 0.005) + 1);
-        this.velocityY = (Math.random() * 100) / 100 * -1;
-        this.velocityX = (Math.random() * 100) / 100 * -1;
+        this.velocityY = (Math.random() * 100) / 100 * -1;  // 물방울 방향, 속도
+        this.velocityX = (Math.random() * 100) / 100 * -1;  // 물방울 방향, 속도
         this.color =
           ballColorSelections[Math.floor(Math.random() * ballColorSelections.length)];
       }
@@ -138,13 +138,13 @@ export default {
 
     onMounted(() => {
       const canvasElement = canvas.value;
-      canvasElement.height = document.querySelector('.inner-waves-contents').clientHeight+180;
+      canvasElement.height = document.querySelector('.waves-container').clientHeight; // 물방울 높이
       // canvasElement.height = window.innerHeight;
       canvasElement.width = window.innerWidth;
       createCircle(settings.maxCount);
 
       window.addEventListener('resize', () => {
-        canvasElement.height = document.querySelector('.inner-waves-contents').clientHeight+180;
+        canvasElement.height = document.querySelector('.waves-container').clientHeight; // 물방울 높이
         // canvasElement.height = window.innerHeight;
         canvasElement.width = window.innerWidth;
       });
@@ -181,7 +181,7 @@ canvas {
   filter: blur(1px);
   position: absolute;
   left: 0px;
-  bottom: -100px;
+  bottom: 0px;
   z-index: 1;
 }
 </style>

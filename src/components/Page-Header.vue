@@ -33,5 +33,6 @@ export default {
   text-align: right;
   width: 1280px;
   margin: 0 auto; /* 가운데 정렬을 위한 마진 설정 */
+  z-index: 999;
 }
 </style>

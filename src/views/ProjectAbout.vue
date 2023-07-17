@@ -2,7 +2,7 @@
 <template>
   <div class="about">
     <!-- 메뉴 -->
-    <div class="menu fake_data">
+    <!-- <div class="menu fake_data">
       <div class="menu_item menu_item_clicked" id="btn_4" @click="openProject('4')">메뉴 1</div>
       <div class="menu_item_bar">|</div>
       <div class="menu_item" id="btn_3" @click="openProject('3')">메뉴 2</div>
@@ -10,7 +10,7 @@
       <div class="menu_item" id="btn_2" @click="openProject('2')">메뉴 3</div>
       <div class="menu_item_bar">|</div>
       <div class="menu_item" id="btn_1" @click="openProject('1')">메뉴 4</div>
-    </div>
+    </div> -->
 
     <div class="menu real_data">
       <div class="menu_item menu_item_clicked" id="btn_4" @click="openProject('4')">AutoML</div>
