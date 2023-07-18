@@ -181,7 +181,7 @@ canvas {
   filter: blur(1px);
   position: absolute;
   left: 0px;
-  bottom: 0px;
+  bottom: -100px;
   z-index: 1;
 }
 </style>

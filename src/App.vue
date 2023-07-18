@@ -76,7 +76,7 @@ export default {
 
 .footer-style {
   bottom: 0px;
-  position: absolute;
+  /* position: absolute; */
   width: 100vw;
 }
 </style>
