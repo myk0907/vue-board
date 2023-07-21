@@ -138,13 +138,13 @@ export default {
 
     onMounted(() => {
       const canvasElement = canvas.value;
-      canvasElement.height = document.querySelector('.waves-container').clientHeight; // 물방울 높이
+      canvasElement.height = document.querySelector('.waves-container').clientHeight-100; // 물방울 높이
       // canvasElement.height = window.innerHeight;
       canvasElement.width = window.innerWidth;
       createCircle(settings.maxCount);
 
       window.addEventListener('resize', () => {
-        canvasElement.height = document.querySelector('.waves-container').clientHeight; // 물방울 높이
+        canvasElement.height = document.querySelector('.waves-container').clientHeight-100; // 물방울 높이
         // canvasElement.height = window.innerHeight;
         canvasElement.width = window.innerWidth;
       });
@@ -165,6 +165,10 @@ export default {
 
     // onBeforeUnmount(beforeUnmount);
 
+    // onBeforeUnmount(() => {
+    //   window.removeEventListener('resize', moveCircle);
+    // });
+
     return {
       canvas,
     }
@@ -173,7 +177,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 
 /* 공기방울 스타일 */
 canvas {
@@ -181,7 +185,7 @@ canvas {
   filter: blur(1px);
   position: absolute;
   left: 0px;
-  bottom: -100px;
+  bottom: -45px;
   z-index: 1;
 }
 </style>
