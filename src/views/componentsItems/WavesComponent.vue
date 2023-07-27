@@ -19,7 +19,7 @@
     
 
     <!--Waves Container-->
-    <div class="header">
+    <div class="waves-container">
       <div>
         <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
         viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -34,16 +34,13 @@
           </g>
         </svg>
       </div>
+      <!-- 파도 출처 -->
+      <div class="content flex" style="background-color: rgb(169,214,226);"> 
+        <p>By.Goodkatz</p>
+      </div>
+      <!-- 파도 출처 끝 -->
     </div>
     <!--Waves end-->
-
-    <div class="inner-header flex"> </div> 
-
-    <!-- 파도 출처 -->
-    <div class="content flex" style="background-color: rgb(169,214,226);"> 
-      <p>By.Goodkatz</p>
-    </div>
-    <!-- 파도 출처 끝 -->
 
 
 
@@ -70,14 +67,8 @@ p {
   margin-right: 7px;
 }
 
-.header {
-  position:relative;
-  text-align:center;
-  color:white;
-}
-
 .inner-header {
-  height:62vh;
+  height:65vh;
   width:100%;
   margin: 0;
   padding: 0;
@@ -107,7 +98,7 @@ p {
 
 .content {
   position:relative;
-  height:15vh;
+  height:20px;
   text-align:right;
   vertical-align: top;
   background-color: white;

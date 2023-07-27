@@ -1,35 +1,30 @@
 <!-- MainPage.vue -->
 <template>
-    <div>
-        <span>메뉴1</span>  |
-        <span>메뉴2</span>  |
-        <span>메뉴3</span>
-    </div>
-    <div class="page_section1">
-      <!-- 메인 바디 -->
-      <div class="waves-container">
-        <BubbleComponent/>
-        <WaveComponent />
-      </div>
-      <!-- 메인 바디 끝 -->
-  
-      <!--메인 콘텐츠-->
-      <div class="contents main-container">
-        <div class="group_row char-img" style="margin-right: 50px">
-          <img src="../assets/img/my_pic_hand.png" style="width: 250px; display: none;">
-        </div>
-        <div class="group_row main-contents">
-          안녕안녕녕녕녕하세요오오오오<br>
+    <div class="page-section1" >
+      <div class="wave-main-container">
         
+        <div class="wave-component">
+          <WaveComponent />
         </div>
+        <div class="contents wave-contents">
+          
+          <!--메인 콘텐츠-->
+          <div class="group_row char-img" style="margin-right: 50px">
+            <img src="../assets/img/my_pic_hand.png" style="width: 250px; display: none;">
+          </div>
+          <div class="group_row main-contents">
+            안녕안녕녕녕녕하세요오오오오<br>
+          </div>
+        </div>
+        <!--메인 콘텐츠 끝-->
       </div>
-      <!--메인 콘텐츠 끝-->
-    </div>
-
-    <div class="page_section2" v-if="stage === 1" ref="stage1">
-        <Portfolio/>
+      <BubbleComponent/>
     </div>
     
+    <div class="page-section2" >
+      <Portfolio/>
+
+    </div>
   </template>
   
   
@@ -49,8 +44,8 @@
       // 이미지 이동 함수
       function move() {
         setTimeout(function () {
-          document.querySelector(".char-img").classList.add("left-to-rignt");
-          // document.querySelector(".waves-container").classList.add("bottom-to-top");
+          // document.querySelector(".char-img").classList.add("left-to-rignt");
+          // document.querySelector(".waves-bubble-container").classList.add("bottom-to-top");
         }, 50);
       }
       
@@ -68,33 +63,27 @@
   </script>
   
   <style scoped>
-  .image-container {
-    width: 500px;
-    height: 500px;
-    background: #55efc4;
+  .page-section1 {
+    height:100vh;
+    display: flex;
+  }
+
+  .wave-main-container {
+    position: relative;
+    width: 100%; 
+    height: 80vh; 
+    align-self: flex-end;
   }
   
-  .main-container {
-    position: absolute; 
-    height: 500px; 
-    width: 1280px; 
-    background-color: transparent;
-    top: 300px;
-  }
-  
-  .main-contents {
-    position: absolute;
-    left: 700px;
-    z-index: 2;
+  .wave-contents {
+    background-color: rgb(169,214,226); 
+    margin:0px; 
+    height: calc(100% - 120px);
   }
   
   .char-img {
     position: absolute;
     left: -500px;
-  }
-  
-  .waves-container {
-    
   }
   
   .left-to-rignt {

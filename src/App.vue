@@ -1,5 +1,5 @@
 <template>
-  <PageHeader/>
+  <!-- <PageHeader/> -->
   <router-view/>
   <div :class="pageBackgroundColorClass" class="footer-style">
     <PageFooter/>
@@ -10,7 +10,7 @@
 import { watch, ref } from 'vue';
 import { useRoute } from 'vue-router';
 
-import PageHeader from '@/components/Page-Header'
+// import PageHeader from '@/components/Page-Header'
 import PageFooter from '@/components/Page-Footer'
 
 export default {
@@ -44,7 +44,7 @@ export default {
   },
   components: {
     PageFooter,
-    PageHeader
+    // PageHeader
   }
 }
 </script>

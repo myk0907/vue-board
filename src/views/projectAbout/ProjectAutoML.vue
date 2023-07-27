@@ -49,7 +49,8 @@
       
       <div class="contents">
         <div class="header_2">역할</div>
-        <li>데이터 저장 및 시각화 </li>
+        <li>분석결과 저장 데이터베이스 설계 및 구축</li>
+        <li>분석 결과 시각화 화면 구현</li>
       </div>
 
       <div class="contents">
@@ -109,6 +110,33 @@
 
     <!-- 화면 설명 -->
     <h1 class="header_1" style="margin-left: 20px;">화면 설명</h1>
+    <!-- 프로젝트 화면 설명 -->
+    <div>
+      <div class="group_row box-2">
+        <div class="contents">
+          <div> 
+            <img class="img-border" src="../../assets/img/project/automl/automl_8.png" style="width: 100%">
+          </div>
+        </div>
+      </div>
+      <div class="group_row box-2">
+        <div class="contents">
+          <div> 
+            <span class="image_title">데이터셋 업로드 화면</span><br>
+            <span>
+              데이터셋 서버 업로드 및 프로젝트 정보 데이터베이스 저장<br>
+              생성한 프로젝트 정보 그리드 표출<br>
+            </span>
+            <br>
+            <span class="contents_desc">
+              사용자가 입력한 프로젝트 정보와 업로드한 데이터셋을 각각 데이터베이스와 서버에 저장함.<br>
+              각 사용자가 생성한 프로젝트 정보를 webix 라이브러리 그리드로 표출하고, 그리드 더블클릭으로 프로젝트 명 정보를 수정할 수 있음.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 프로젝트 화면 설명 -->
     <div>
       <div class="group_row box-2">
         <div class="contents">
@@ -120,13 +148,64 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">장기간 계절별 연평균 표층수온 화면</span><br>
+            <span class="image_title">데이터 시각화 화면</span><br>
             <span>
-              Leaflet 라이브러리를 이용한 연평균 표층수온 래스터 이미지 표출<br>
+              Plotly 라이브러리를 활용한 데이터 시각화<br>
             </span>
             <br>
             <span class="contents_desc">
-              COBE에서 수집한 1도간격의 연평균 표층수온 데이터를 4계절로 나누고, 보간법을 적용한 래스터로 제작하여 표출하였음.
+              사용자가 업로드한 데이터셋을 d3라이브러리를 활용해 읽은 후 plotly 라이브러리를 활용해 시각화 함.<br>
+              (Scatter Plot, Histogram Plot, Box Plot, Outliers, Heatmap Plot, Time Series Plot)
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 프로젝트 화면 설명 -->
+    <div>
+      <div class="group_row box-2">
+        <div class="contents">
+          <div> 
+            <img class="img-border" src="../../assets/img/project/automl/automl_3.png" style="width: 100%">
+          </div>
+        </div>
+      </div>
+      <div class="group_row box-2">
+        <div class="contents">
+          <div> 
+            <span class="image_title">데이터 전처리 화면</span><br>
+            <span>
+              Webix 라이브러리를 활용한 전처리 탭 기능 개발<br>
+            </span>
+            <br>
+            <span class="contents_desc">
+              데이터 전처리 수행 항목을 선택할 수 있는 화면으로, webix 라이브러리를 활용해 데이터셋의 missing values, outlier 등 기본 정보를 표출하고
+              처리 방식을 셀렉트 박스로 제공하여 사용자가 선택할 수 있게 함.<br>
+              사용자가 처리한 파라미터를 Python API로 전송하고, 처리결과를 응답받아 데이터베이스에 저장함.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 프로젝트 화면 설명 -->
+    <div>
+      <div class="group_row box-2">
+        <div class="contents">
+          <div> 
+            <img class="img-border" src="../../assets/img/project/automl/automl_4.png" style="width: 100%">
+          </div>
+        </div>
+      </div>
+      <div class="group_row box-2">
+        <div class="contents">
+          <div> 
+            <span class="image_title">모델 실험 화면</span><br>
+            <span>
+              데이터 분석모델을 선택 화면 개발<br>
+            </span>
+            <br>
+            <span class="contents_desc">
+              ㅇㅇㅇ
             </span>
           </div>
         </div>

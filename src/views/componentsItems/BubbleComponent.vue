@@ -1,5 +1,7 @@
 <template>
-    <canvas ref="canvas"></canvas>
+    <div>
+      <canvas ref="canvas"></canvas>
+    </div>
 </template>
 
 <script>
@@ -138,13 +140,15 @@ export default {
 
     onMounted(() => {
       const canvasElement = canvas.value;
-      canvasElement.height = document.querySelector('.waves-container').clientHeight-100; // 물방울 높이
+      canvasElement.height = document.querySelector('.wave-main-container').clientHeight-50; // 물방울 높이
+      // canvasElement.height = document.querySelector('.waves-container').clientHeight-100; // 물방울 높이
       // canvasElement.height = window.innerHeight;
       canvasElement.width = window.innerWidth;
       createCircle(settings.maxCount);
 
       window.addEventListener('resize', () => {
-        canvasElement.height = document.querySelector('.waves-container').clientHeight-100; // 물방울 높이
+        canvasElement.height = document.querySelector('.wave-main-container').clientHeight-50; // 물방울 높이
+        // canvasElement.height = document.querySelector('.waves-container').clientHeight-100; // 물방울 높이
         // canvasElement.height = window.innerHeight;
         canvasElement.width = window.innerWidth;
       });
@@ -185,7 +189,9 @@ canvas {
   filter: blur(1px);
   position: absolute;
   left: 0px;
-  bottom: -45px;
+  /* bottom: -150px; */
+  /* bottom: -45px; */
+  bottom: 0px;
   z-index: 1;
 }
 </style>

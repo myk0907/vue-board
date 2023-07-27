@@ -44,6 +44,7 @@
       <div class="contents">
         <div class="header_2">역할</div>
         <li>카카오 지도 API를 활용한 제주도 지도 및 직선경로 표출 기능 구현</li>
+        <li>수집한 데이터 저장을 위한 데이터베이스 설계 및 구축</li>
         <li>관광지역 찜 기능 및 여행 경로 쿠키 저장 기능 구현</li>
       </div>
 
