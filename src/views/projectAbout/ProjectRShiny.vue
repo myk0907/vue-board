@@ -24,7 +24,7 @@
         <a href='https://joiss.kr/' target='_blank' style="margin-right: 40px;">
           <img src="../../assets/img/project/sealab/wh-joiss-logo.png" style="width: 200px; filter: invert(100%) sepia(100%) saturate(556%) hue-rotate(169deg) brightness(98%) contrast(94%);">
         </a>
-        <a href='http://shiny.kesti.info/' target='_blank'>
+        <a href='https://haebomdata.shinyapps.io/haebomclass/' target='_blank'>
           <div class="group_row txt_center">   
             <img src="../../assets/img/project/sealab/sealab-logo-blue.png" style="width: 40px;">
             <div class="lang_logo_title" style="margin-top : 10px;">
@@ -115,13 +115,12 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">해양데이터 제공 화면</span><br>
+            <p class="image_title">해양데이터 제공 화면</p>
               국내외 해양데이터 수집<br>
-              R을 이용한 데이터 전처리 후 Postgres DB에 저장<br>
-            <br>
-            <span class="contents_desc">
+              R을 이용한 데이터 전처리 후 Postgres DB에 저장
+            <p class="contents_desc">
               해양R&D 과제 자료와 국내외 해양과학자료 수집 후 R을 이용하여 전처리를 진행하고 Postgres DB에 저장하여 사용자들에게 제공함
-            </span>
+            </p>
           </div>
         </div>
       </div>
@@ -137,17 +136,16 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">장기간 연평균 표층수온 화면</span><br>
-            <span>
+            <p class="image_title">장기간 연평균 표층수온 화면</p>
+            <p>
               plotly라이브러리를 이용한 연평균 표층수온 시계열 그래프 제작<br>
-              Leaflet 라이브러리를 이용한 연평균 표층수온 래스터 이미지 표출<br>
-            </span>
-            <br>
-            <span class="contents_desc">
+              Leaflet 라이브러리를 이용한 연평균 표층수온 래스터 이미지 표출
+            </p>
+            <p class="contents_desc">
               COBE에서 수집한 1도간격의 연평균 표층수온 데이터를 동해, 서해, 남해로 구분하여 시계열 그래프를 작성하고,
               보간법을 적용한 래스터로 제작하여 표출하였음.<br>
               레인지 바를 이용하여 사용자가 지정한 연도의 평균 데이터를 확인할 수 있음.
-            </span>
+            </p>
           </div>
         </div>
       </div>
@@ -163,14 +161,13 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">장기간 계절별 연평균 표층수온 화면</span><br>
-            <span>
-              Leaflet 라이브러리를 이용한 연평균 표층수온 래스터 이미지 표출<br>
-            </span>
-            <br>
-            <span class="contents_desc">
+            <p class="image_title">장기간 계절별 연평균 표층수온 화면</p>
+            <p>
+              Leaflet 라이브러리를 이용한 연평균 표층수온 래스터 이미지 표출
+            </p>
+            <p class="contents_desc">
               COBE에서 수집한 1도간격의 연평균 표층수온 데이터를 4계절로 나누고, 보간법을 적용한 래스터로 제작하여 표출하였음.
-            </span>
+            </p>
           </div>
         </div>
       </div>
@@ -186,16 +183,15 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">생물다양성 화면</span><br>
-            <span>
+            <p class="image_title">생물다양성 화면</p>
+            <p>
               plotly라이브러리를 이용한 연평균 생물지수 박스 그래프 제작<br>
-              Leaflet 라이브러리를 이용한 생물지수 표출<br>
-            </span>
-            <br>
-            <span class="contents_desc">
+              Leaflet 라이브러리를 이용한 생물지수 표출
+            </p>
+            <p class="contents_desc">
               해양생태계 기본조사 자료를 수집하여 연평균으로 계산하여 색상에 따른 공간분포도를 작성하였고, 
               6개 권역의 shp파일을 만들어 지도에 표출하고 권역 클릭시 각 권역에 맞는 생물지수 박스 그래프가 나오도록 제작하였음.
-            </span>
+            </p>
           </div>
         </div>
       </div>

@@ -313,7 +313,7 @@
         <div class="card_item card_overlay"></div>
         <div class="modal_confirm">
           <div class="group_row modal_button" @click="openAboutModal('sealab')">자세히 보기</div>
-          <a href='http://shiny.kesti.info/' target='_blank'>
+          <a href='https://haebomdata.shinyapps.io/haebomclass/' target='_blank'>
             <div class="group_row modal_button">
               SEALAB
             </div>

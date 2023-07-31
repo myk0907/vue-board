@@ -122,16 +122,15 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">데이터셋 업로드 화면</span><br>
-            <span>
+            <p class="image_title">데이터셋 업로드 화면</p>
+            <p>
               데이터셋 서버 업로드 및 프로젝트 정보 데이터베이스 저장<br>
-              생성한 프로젝트 정보 그리드 표출<br>
-            </span>
-            <br>
-            <span class="contents_desc">
+              생성한 프로젝트 정보 그리드 표출
+            </p>
+            <p class="contents_desc">
               사용자가 입력한 프로젝트 정보와 업로드한 데이터셋을 각각 데이터베이스와 서버에 저장함.<br>
               각 사용자가 생성한 프로젝트 정보를 webix 라이브러리 그리드로 표출하고, 그리드 더블클릭으로 프로젝트 명 정보를 수정할 수 있음.
-            </span>
+            </p>
           </div>
         </div>
       </div>
@@ -148,15 +147,14 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">데이터 시각화 화면</span><br>
-            <span>
-              Plotly 라이브러리를 활용한 데이터 시각화<br>
-            </span>
-            <br>
-            <span class="contents_desc">
+            <p class="image_title">데이터 시각화 화면</p>
+            <p>
+              Plotly 라이브러리를 활용한 데이터 시각화
+            </p>
+            <p class="contents_desc">
               사용자가 업로드한 데이터셋을 d3라이브러리를 활용해 읽은 후 plotly 라이브러리를 활용해 시각화 함.<br>
               (Scatter Plot, Histogram Plot, Box Plot, Outliers, Heatmap Plot, Time Series Plot)
-            </span>
+            </p>
           </div>
         </div>
       </div>
@@ -173,16 +171,15 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">데이터 전처리 화면</span><br>
-            <span>
-              Webix 라이브러리를 활용한 전처리 탭 기능 개발<br>
-            </span>
-            <br>
-            <span class="contents_desc">
+            <p class="image_title">데이터 전처리 화면</p>
+            <p>
+              Webix 라이브러리를 활용한 전처리 탭 기능 개발
+            </p>
+            <p class="contents_desc">
               데이터 전처리 수행 항목을 선택할 수 있는 화면으로, webix 라이브러리를 활용해 데이터셋의 missing values, outlier 등 기본 정보를 표출하고
               처리 방식을 셀렉트 박스로 제공하여 사용자가 선택할 수 있게 함.<br>
               사용자가 처리한 파라미터를 Python API로 전송하고, 처리결과를 응답받아 데이터베이스에 저장함.
-            </span>
+            </p>
           </div>
         </div>
       </div>
@@ -199,14 +196,39 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">모델 실험 화면</span><br>
-            <span>
-              데이터 분석모델을 선택 화면 개발<br>
-            </span>
-            <br>
-            <span class="contents_desc">
-              ㅇㅇㅇ
-            </span>
+            <p class="image_title">모델 실험 화면</p>
+            <p>
+              데이터 분석모델 선택 화면 개발
+            </p>
+            <p class="contents_desc">
+              사용자가 업로드한 데이터를 분석하기 위한 모델 선택 화면으로, Machine Learning / Time Series / Statistics 분석을 탭으로 구분하여 파라미터를 선택할 수 있도록 하였음.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 프로젝트 화면 설명 -->
+    <div>
+      <div class="group_row box-2">
+        <div class="contents">
+          <div> 
+            <img class="img-border" src="../../assets/img/project/automl/automl_5.png" style="width: 100%">
+            <!-- <img class="img-border" src="../../assets/img/project/automl/automl_6.png" style="width: 100%"> -->
+            <img class="img-border" src="../../assets/img/project/automl/automl_7.png" style="width: 100%">
+          </div>
+        </div>
+      </div>
+      <div class="group_row box-2">
+        <div class="contents">
+          <div> 
+            <p class="image_title">모델 결과 화면</p>
+            <p>
+              데이터 분석모델 선택 화면 개발
+            </p>
+            <p class="contents_desc">
+              사용자가 실행한 모델 분석 결과를 표출하는 화면으로, Machine Learning / Time Series / Statistics 분석을 탭으로 구분하여 각 결과 값을 그리드로 표출하고 팝업을 활용하여 분석 결과를 그래프로 표출하였음. <br>
+              서버에 저장된 결과 파일을 다운로드 할 수 있는 기능도 추가하였음.
+            </p>
           </div>
         </div>
       </div>

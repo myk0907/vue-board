@@ -16,7 +16,7 @@ export default {
     ProjectShop,
   },
   mounted() {
-    document.querySelector('#git_button_shop').style.display = 'none'
+    // document.querySelector('#git_button_shop').style.display = 'none'
   }
 };
 </script>

@@ -16,7 +16,7 @@ export default {
     ProjectJejuMap,
   },
   mounted() {
-    document.querySelector('#git_button_jeju').style.display = 'none'
+    // document.querySelector('#git_button_jeju').style.display = 'none'
   }
 };
 </script>

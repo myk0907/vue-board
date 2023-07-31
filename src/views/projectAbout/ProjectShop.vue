@@ -104,14 +104,13 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">메인 화면</span><br>
-            <span>
-              대표 상품 이미지와 각 메뉴에 바로 이동이 가능한 메인 화면<br>
-            </span>
-            <br>
-            <span class="contents_desc">
+            <p class="image_title">메인 화면</p>
+            <p>
+              대표 상품 이미지와 각 메뉴에 바로 이동이 가능한 메인 화면
+            </p>
+            <p class="contents_desc">
               대표상품 이미지가 순차적으로 나올 수 있게 하였고, 상품, 리뷰, 이벤트, 장바구니, 관리자페이지 등 바로 이동할 수 있는 기능 버튼을 추가함
-            </span>
+            </p>
           </div>
         </div>
       </div>
@@ -127,14 +126,13 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">상품 목록 화면</span><br>
-            <span>
-              DB에 구축된 상품 리스트 표출 및 검색 기능 구현<br>
-            </span>
-            <br>
-            <span class="contents_desc">
+            <p class="image_title">상품 목록 화면</p>
+            <p>
+              DB에 구축된 상품 리스트 표출 및 검색 기능 구현
+            </p>
+            <p class="contents_desc">
               상품의 카테고리를 나누어 상품 리스트를 표출하고 검색 기능을 사용하여 포함되는 단어를 서치할 수 있게 함
-            </span>
+            </p>
           </div>
         </div>
       </div>
@@ -150,14 +148,13 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">상품 상세 화면</span><br>
-            <span>
+            <p class="image_title">상품 상세 화면</p>
+            <p>
               DB에 구축된 상품의 상세정보 및 리뷰정보 표출
-            </span>
-            <br>
-            <span class="contents_desc">
+            </p>
+            <p class="contents_desc">
               DB에 구축된 상품의 상세정보와 리뷰 정보를 표출하였고, 장바구니 또는 바로 구매 기능을 추가함
-            </span>
+            </p>
           </div>
         </div>
       </div>
@@ -173,15 +170,13 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">마이페이지 개인정보 수정 화면</span><br>
-            <span>
-              DB에 저장된 회원 정보 수정<br>
-
-            </span>
-            <br>
-            <span class="contents_desc">
+            <p class="image_title">마이페이지 개인정보 수정 화면</p>
+            <p>
+              DB에 저장된 회원 정보 수정
+            </p>
+            <p class="contents_desc">
               생일, 주소 등 회원정보를 수정할 수 있음.
-            </span>
+            </p>
           </div>
         </div>
       </div>

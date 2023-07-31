@@ -104,7 +104,7 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">메인 페이지</span><br>
+            <p class="image_title">메인 페이지</p>
             놀당갑서의 메인페이지로 제주도 또는 서귀포 중 선택하여 스마트 파인더 페이지로 이동 가능
           </div>
         </div>
@@ -121,15 +121,14 @@
       <div class="group_row box-2">
         <div class="contents">
           <div> 
-            <span class="image_title">스마트파인더 화면</span><br>
-            <span>
-              카카오 Maps API를 이용하여 제주도 관광지 데이터 표출<br>
-            </span>
-            <br>
-            <span class="contents_desc">
+            <p class="image_title">스마트파인더 화면</p>
+            <p>
+              카카오 Maps API를 이용하여 제주도 관광지 데이터 표출
+            </p>
+            <p class="contents_desc">
               네이버, 다음 등 크롤링을 통해 구축한 제주도의 음식점, 관광지, 숙박 데이터를 표출함<br>
               찜 버튼 클릭 시 클릭된 목록을 확인할 수 있도록 하였고, 지도의 마커를 연결하여 직선 경로를 표시함
-            </span>
+            </p>
           </div>
         </div>
       </div>
@@ -145,16 +144,15 @@
       <div class="group_row box-2">
         <div class="contents">
           <div>
-            <span class="image_title">제주도정보 화면</span><br>
-            <span>
+            <p class="image_title">제주도정보 화면</p>
+            <p>
               AmCharts API를 이용하여 제주도 관광객 데이터 표출<br>
-              OpenWeather의 API를 이용하여 제주도의 현재 날씨 정보 표출<br>
-            </span>
-            <br>
-            <span class="contents_desc">
+              OpenWeather의 API를 이용하여 제주도의 현재 날씨 정보 표출
+            </p>
+            <p class="contents_desc">
               한국관광데이터랩에서 2018년 ~ 2022년까지의 제주도 관광객 데이터를 수집하여 DB에 구축하고 표출함<br>
               제주도의 현재 날씨정보를 그래픽과 함께 표출함
-            </span>
+            </p>
           </div>
         </div>
       </div>
