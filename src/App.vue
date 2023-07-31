@@ -1,7 +1,7 @@
 <template>
   <!-- <PageHeader/> -->
   <router-view/>
-  <div :class="pageBackgroundColorClass" class="footer-style">
+  <div :class="pageBackgroundColorClass" class="footer-style" style="display: none;">
     <PageFooter/>
   </div>
 </template>

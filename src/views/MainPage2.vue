@@ -13,7 +13,8 @@
             <img src="../assets/img/my_pic_hand.png" style="width: 250px; display: none;">
           </div>
           <div class="group_row main-contents">
-            안녕안녕녕녕녕하세요오오오오<br>
+            <p>안녕안녕녕녕녕하세요오오오오</p>
+            <p style="display:none;">안녕안녕녕녕녕하세요오오오오</p>
           </div>
         </div>
         <!--메인 콘텐츠 끝-->
@@ -21,10 +22,11 @@
       <BubbleComponent/>
     </div>
     
+    <!-- 포트폴리오 -->
     <div class="page-section2" >
       <Portfolio/>
-
     </div>
+
   </template>
   
   
