@@ -10,12 +10,12 @@ const routes = [
   {
     path: '/',
     name: 'MainPage',
-    component: MainPage
+    component: MainPage2
   },
   {
     path: '/2',
     name: 'MainPage2',
-    component: MainPage2
+    component: MainPage
   },
   // 포트폴리오 메인페이지
   {

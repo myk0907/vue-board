@@ -10,11 +10,17 @@
           
           <!--메인 콘텐츠-->
           <div class="group_row char-img" style="margin-right: 50px">
-            <img src="../assets/img/my_pic_hand.png" style="width: 250px; display: none;">
+            <img src="../assets/img/my_pic_hand.png" style="width: 250px;">
           </div>
           <div class="group_row main-contents">
-            <p>안녕안녕녕녕녕하세요오오오오</p>
             <p style="display:none;">안녕안녕녕녕녕하세요오오오오</p>
+            <p class="header_1">
+              안녕하세요. <img class="reverse" src="../assets/svg/waving-hand.svg"><br>
+              주니어 Frontend개발자 김민영입니다.
+            </p>
+            <p style="display:none;">
+              저는 
+            </p>
           </div>
         </div>
         <!--메인 콘텐츠 끝-->
@@ -46,7 +52,7 @@
       // 이미지 이동 함수
       function move() {
         setTimeout(function () {
-          // document.querySelector(".char-img").classList.add("left-to-rignt");
+          document.querySelector(".char-img").classList.add("left-to-rignt");
           // document.querySelector(".waves-bubble-container").classList.add("bottom-to-top");
         }, 50);
       }
@@ -67,6 +73,7 @@
   <style scoped>
   .page-section1 {
     height:100vh;
+    width:100%;
     display: flex;
   }
 

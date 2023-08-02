@@ -129,17 +129,6 @@
 
 
   <div class="about real_data custom-body">
-    <!-- <h1 style="margin: 50px">웹개발자 김민영 포트폴리오</h1> -->
-    
-    <!-- 소개 -->
-    <!-- <div class="contents">
-      <div class="group_row" style="margin-right: 50px">
-        <img src="../assets/img/my_pic.png" style="width: 250px">
-      </div>
-      <div class="group_row contents">
-        1년차 웹 개발자 김민영입니다.
-      </div>
-    </div> -->
     <!-- https://www.svgrepo.com/collection/twemoji-emojis/1  svg 이모지 사이트-->
 
     <!-- 프로필 경력 -->
@@ -269,10 +258,10 @@
         </div>
       </div>
       <!-- 모달 내용 -->
-      <CardComponent :imgSrc="require('@/assets/img/project/automl/automl_5.png')" cardTitle="AutoML 솔루션" cardContents="반복적인 Machine Learning 모델 개발 작업 자동화 솔루션"/>
+      <CardComponent :imgSrc="require('@/assets/img/project/automl/automl_5.png')" cardTitle="AutoML 솔루션" cardContents="반복적인 Machine Learning 모델 개발 작업 자동화 솔루션" data-aos="flip-right"/>
     </div>
 
-    <div class="group_row box-2" @click="openConfirmModal('cardItem_3', $event)">
+    <div class="group_row box-2 box-top-pd" @click="openConfirmModal('cardItem_3', $event)">
       <!-- 확인창 모달 -->
       <div v-if="isModalConfirm === 'cardItem_3'" @close-modal="closeConfirmModal()">
         <div class="card_item card_overlay"></div>
@@ -286,7 +275,7 @@
         </div>
       </div>
       <!-- 모달 내용 -->
-      <CardComponent :imgSrc="require('@/assets/img/project/jeju/jeju_1.png')" cardTitle="놀당갑서" cardContents="제주도 여행지 추천 사이트"/>
+      <CardComponent :imgSrc="require('@/assets/img/project/jeju/jeju_1.png')" cardTitle="놀당갑서" cardContents="제주도 여행지 추천 사이트" data-aos="flip-right"/>
     </div>
 
     <div class="group_row box-2" @click="openConfirmModal('cardItem_2', $event)">
@@ -304,10 +293,10 @@
         </div>
       </div>
       <!-- 모달 내용 -->
-      <CardComponent :imgSrc="require('@/assets/img/project/shop/www_shop_1.png')" cardTitle="WWW" cardContents="화면이 구현되어 있는 기존 화장품 쇼핑몰 사이트 클론 코딩"/>
+      <CardComponent :imgSrc="require('@/assets/img/project/shop/www_shop_1.png')" cardTitle="WWW" cardContents="화면이 구현되어 있는 기존 화장품 쇼핑몰 사이트 클론 코딩" data-aos="flip-right"/>
     </div>
 
-    <div class="group_row box-2" @click="openConfirmModal('cardItem_1', $event)">
+    <div class="group_row box-2 box-top-pd" @click="openConfirmModal('cardItem_1', $event)">
       <!-- 확인창 모달 -->
       <div v-if="isModalConfirm === 'cardItem_1'" @close-modal="closeConfirmModal()">
         <div class="card_item card_overlay"></div>
@@ -315,13 +304,13 @@
           <div class="group_row modal_button" @click="openAboutModal('sealab')">자세히 보기</div>
           <a href='https://haebomdata.shinyapps.io/haebomclass/' target='_blank'>
             <div class="group_row modal_button">
-              SEALAB
+              해(海)봄 교실
             </div>
           </a>
         </div>
       </div>
       <!-- 모달 내용 -->
-      <CardComponent :imgSrc="require('@/assets/img/project/sealab/sealab_1.png')" cardTitle="해(海)봄 교실 교육 앱" cardContents="중고등학교 과학 수업에 활용 할 수 있는 웹 페이지"/>
+      <CardComponent :imgSrc="require('@/assets/img/project/sealab/sealab_1.png')" cardTitle="해(海)봄 교실 교육 앱" cardContents="중고등학교 과학 수업에 활용 할 수 있는 웹 페이지" data-aos="flip-right"/>
     </div>
 
     <!-- contact -->
@@ -335,6 +324,7 @@
 </template>
 
 <script>
+import AOS from "aos"
 import ConfirmModal from './componentsItems/ConfirmModal.vue'
 import CardComponent from './componentsItems/CardComponent.vue'
 import ModalAutoML from "./projectAbout/projectModal/ModalProjectAutoML.vue"
@@ -403,6 +393,7 @@ export default {
   mounted() {
     // 컴포넌트가 마운트된 후, 바깥쪽 요소에 클릭 이벤트 리스너를 추가합니다.
     document.addEventListener('click', this.closeConfirmModal);
+    AOS.init();
   }
 }
 </script>
