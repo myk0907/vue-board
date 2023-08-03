@@ -10,11 +10,11 @@
           
           <!--메인 콘텐츠-->
           <div class="group_row char-img" style="margin-right: 50px">
-            <img src="../assets/img/my_pic_hand.png" style="width: 250px;">
+            <img src="../assets/img/my_pic_hand.png" style="width: 250px; display: none;">
           </div>
           <div class="group_row main-contents">
-            <p style="display:none;">안녕안녕녕녕녕하세요오오오오</p>
-            <p class="header_1">
+            <p >안녕안녕녕녕녕하세요오오오오</p>
+            <p class="header_1" style="display: none;">
               안녕하세요. <img class="reverse" src="../assets/svg/waving-hand.svg"><br>
               주니어 Frontend개발자 김민영입니다.
             </p>

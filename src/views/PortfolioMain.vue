@@ -75,7 +75,7 @@
     <div class="group_row box-2" @click="openConfirmModal('cardItem_4', $event)">
       <!-- 확인창 모달 -->
       <div v-if="isModalConfirm === 'cardItem_4'" @close-modal="closeConfirmModal()">
-        <div class="card_item card_overlay"></div>
+        <!-- <div class="card_item card_overlay"></div> -->
         <div class="modal_confirm">
           <div class="group_row modal_button" @click="openAboutModal('automl')" style="width:100%">ddd</div>
         </div>
@@ -252,7 +252,7 @@
     <div class="group_row box-2" @click="openConfirmModal('cardItem_4', $event)">
       <!-- 확인창 모달 -->
       <div v-if="isModalConfirm === 'cardItem_4'" @close-modal="closeConfirmModal()">
-        <div class="card_item card_overlay"></div>
+        <!-- <div class="card_item card_overlay"></div> -->
         <div class="modal_confirm">
           <div class="group_row modal_button" @click="openAboutModal('automl')" style="width:100%">자세히 보기</div>
         </div>
@@ -264,7 +264,7 @@
     <div class="group_row box-2 box-top-pd" @click="openConfirmModal('cardItem_3', $event)">
       <!-- 확인창 모달 -->
       <div v-if="isModalConfirm === 'cardItem_3'" @close-modal="closeConfirmModal()">
-        <div class="card_item card_overlay"></div>
+        <!-- <div class="card_item card_overlay"></div> -->
         <div class="modal_confirm">
           <div class="group_row modal_button" @click="openAboutModal('jeju')">자세히 보기</div>
           <a href='https://github.com/myk0907/final-project_jejuMap' target='_blank'>
@@ -282,7 +282,7 @@
       <!-- 확인창 모달 -->
       <!-- <ConfirmModal /> -->
       <div v-if="isModalConfirm === 'cardItem_2'" @close-modal="closeConfirmModal()">
-        <div class="card_item card_overlay"></div>
+        <!-- <div class="card_item card_overlay"></div> -->
         <div class="modal_confirm">
           <div class="group_row modal_button" @click="openAboutModal('shop')">자세히 보기</div>
           <a href='https://github.com/myk0907/project_shop' target='_blank'>
@@ -299,7 +299,7 @@
     <div class="group_row box-2 box-top-pd" @click="openConfirmModal('cardItem_1', $event)">
       <!-- 확인창 모달 -->
       <div v-if="isModalConfirm === 'cardItem_1'" @close-modal="closeConfirmModal()">
-        <div class="card_item card_overlay"></div>
+        <!-- <div class="card_item card_overlay"></div> -->
         <div class="modal_confirm">
           <div class="group_row modal_button" @click="openAboutModal('sealab')">자세히 보기</div>
           <a href='https://haebomdata.shinyapps.io/haebomclass/' target='_blank'>
@@ -318,7 +318,7 @@
     <h1 class="division_line"></h1>
     <div class="contents">
       <img src="../assets/svg/e-mail.svg" style="width: 20px; margin-right: 10px;"> myk0907000@gmail.com<br>
-      <!-- <img src="../assets/svg/phone.svg" style="width: 20px; margin-right: 10px;"> +82 10-1234-5678  -->
+      <img src="../assets/svg/phone.svg" style="width: 20px; margin-right: 10px;"> +82 10-1234-5678 
     </div>
   </div>
 </template>
