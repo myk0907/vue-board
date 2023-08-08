@@ -252,7 +252,7 @@
     <div class="group_row box-2" @click="openConfirmModal('cardItem_4', $event)">
       <!-- 확인창 모달 -->
       <div v-if="isModalConfirm === 'cardItem_4'" @close-modal="closeConfirmModal()">
-        <!-- <div class="card_item card_overlay"></div> -->
+        <div class="card_item card_overlay"></div>
         <div class="modal_confirm">
           <div class="group_row modal_button" @click="openAboutModal('automl')" style="width:100%">자세히 보기</div>
         </div>
@@ -261,10 +261,10 @@
       <CardComponent :imgSrc="require('@/assets/img/project/automl/automl_5.png')" cardTitle="AutoML 솔루션" cardContents="반복적인 Machine Learning 모델 개발 작업 자동화 솔루션" data-aos="flip-right"/>
     </div>
 
-    <div class="group_row box-2 box-top-pd" @click="openConfirmModal('cardItem_3', $event)">
+    <div class="group_row box-2 box-top-mg" @click="openConfirmModal('cardItem_3', $event)">
       <!-- 확인창 모달 -->
       <div v-if="isModalConfirm === 'cardItem_3'" @close-modal="closeConfirmModal()">
-        <!-- <div class="card_item card_overlay"></div> -->
+        <div class="card_item card_overlay"></div>
         <div class="modal_confirm">
           <div class="group_row modal_button" @click="openAboutModal('jeju')">자세히 보기</div>
           <a href='https://github.com/myk0907/final-project_jejuMap' target='_blank'>
@@ -275,14 +275,15 @@
         </div>
       </div>
       <!-- 모달 내용 -->
-      <CardComponent :imgSrc="require('@/assets/img/project/jeju/jeju_1.png')" cardTitle="놀당갑서" cardContents="제주도 여행지 추천 사이트" data-aos="flip-right"/>
+      <CardComponent 
+        :imgSrc="require('@/assets/img/project/jeju/jeju_1.png')" cardTitle="놀당갑서" cardContents="제주도 여행지 추천 사이트" data-aos="flip-right"/>
     </div>
 
     <div class="group_row box-2" @click="openConfirmModal('cardItem_2', $event)">
       <!-- 확인창 모달 -->
       <!-- <ConfirmModal /> -->
       <div v-if="isModalConfirm === 'cardItem_2'" @close-modal="closeConfirmModal()">
-        <!-- <div class="card_item card_overlay"></div> -->
+        <div class="card_item card_overlay"></div>
         <div class="modal_confirm">
           <div class="group_row modal_button" @click="openAboutModal('shop')">자세히 보기</div>
           <a href='https://github.com/myk0907/project_shop' target='_blank'>
@@ -296,10 +297,10 @@
       <CardComponent :imgSrc="require('@/assets/img/project/shop/www_shop_1.png')" cardTitle="WWW" cardContents="화면이 구현되어 있는 기존 화장품 쇼핑몰 사이트 클론 코딩" data-aos="flip-right"/>
     </div>
 
-    <div class="group_row box-2 box-top-pd" @click="openConfirmModal('cardItem_1', $event)">
+    <div class="group_row box-2 box-top-mg" @click="openConfirmModal('cardItem_1', $event)">
       <!-- 확인창 모달 -->
       <div v-if="isModalConfirm === 'cardItem_1'" @close-modal="closeConfirmModal()">
-        <!-- <div class="card_item card_overlay"></div> -->
+        <div class="card_item card_overlay"></div>
         <div class="modal_confirm">
           <div class="group_row modal_button" @click="openAboutModal('sealab')">자세히 보기</div>
           <a href='https://haebomdata.shinyapps.io/haebomclass/' target='_blank'>

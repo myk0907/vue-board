@@ -96,8 +96,8 @@ html, body{
     position: relative;
 }
 
-.box-top-pd {
-    padding-top: 200px;
+.box-top-mg {
+    margin-top: 200px;
 }
 
 .box-3 {
@@ -240,7 +240,7 @@ html, body{
 
 .card_overlay {
     background-color: black;
-    height: 91.7%;
+    height: 91.2%;
     opacity: 0.3;
     z-index: 9;
     position: absolute;
