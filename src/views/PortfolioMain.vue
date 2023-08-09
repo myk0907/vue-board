@@ -249,7 +249,7 @@
     <component v-if="isModalViewed" :is="modalComponent" @close-modal="closeAboutModal"></component>
 
     <!-- 프로젝트 소개 -->
-    <div class="group_row box-2" @click="openConfirmModal('cardItem_4', $event)">
+    <div class="group_row box-2" @click="openConfirmModal('cardItem_4', $event)" data-aos="flip-right">
       <!-- 확인창 모달 -->
       <div v-if="isModalConfirm === 'cardItem_4'" @close-modal="closeConfirmModal()">
         <div class="card_item card_overlay"></div>
@@ -258,10 +258,10 @@
         </div>
       </div>
       <!-- 모달 내용 -->
-      <CardComponent :imgSrc="require('@/assets/img/project/automl/automl_5.png')" cardTitle="AutoML 솔루션" cardContents="반복적인 Machine Learning 모델 개발 작업 자동화 솔루션" data-aos="flip-right"/>
+      <CardComponent :imgSrc="require('@/assets/img/project/automl/automl_5.png')" cardTitle="AutoML 솔루션" cardContents="반복적인 Machine Learning 모델 개발 작업 자동화 솔루션" />
     </div>
 
-    <div class="group_row box-2 box-top-mg" @click="openConfirmModal('cardItem_3', $event)">
+    <div class="group_row box-2 box-top-mg" @click="openConfirmModal('cardItem_3', $event)" data-aos="flip-right">
       <!-- 확인창 모달 -->
       <div v-if="isModalConfirm === 'cardItem_3'" @close-modal="closeConfirmModal()">
         <div class="card_item card_overlay"></div>
@@ -276,10 +276,10 @@
       </div>
       <!-- 모달 내용 -->
       <CardComponent 
-        :imgSrc="require('@/assets/img/project/jeju/jeju_1.png')" cardTitle="놀당갑서" cardContents="제주도 여행지 추천 사이트" data-aos="flip-right"/>
+        :imgSrc="require('@/assets/img/project/jeju/jeju_1.png')" cardTitle="놀당갑서" cardContents="제주도 여행지 추천 사이트" />
     </div>
 
-    <div class="group_row box-2" @click="openConfirmModal('cardItem_2', $event)">
+    <div class="group_row box-2" @click="openConfirmModal('cardItem_2', $event)" data-aos="flip-right">
       <!-- 확인창 모달 -->
       <!-- <ConfirmModal /> -->
       <div v-if="isModalConfirm === 'cardItem_2'" @close-modal="closeConfirmModal()">
@@ -294,10 +294,10 @@
         </div>
       </div>
       <!-- 모달 내용 -->
-      <CardComponent :imgSrc="require('@/assets/img/project/shop/www_shop_1.png')" cardTitle="WWW" cardContents="화면이 구현되어 있는 기존 화장품 쇼핑몰 사이트 클론 코딩" data-aos="flip-right"/>
+      <CardComponent :imgSrc="require('@/assets/img/project/shop/www_shop_1.png')" cardTitle="WWW" cardContents="화면이 구현되어 있는 기존 화장품 쇼핑몰 사이트 클론 코딩" />
     </div>
 
-    <div class="group_row box-2 box-top-mg" @click="openConfirmModal('cardItem_1', $event)">
+    <div class="group_row box-2 box-top-mg" @click="openConfirmModal('cardItem_1', $event)" data-aos="flip-right">
       <!-- 확인창 모달 -->
       <div v-if="isModalConfirm === 'cardItem_1'" @close-modal="closeConfirmModal()">
         <div class="card_item card_overlay"></div>
@@ -311,7 +311,7 @@
         </div>
       </div>
       <!-- 모달 내용 -->
-      <CardComponent :imgSrc="require('@/assets/img/project/sealab/sealab_1.png')" cardTitle="해(海)봄 교실 교육 앱" cardContents="중고등학교 과학 수업에 활용 할 수 있는 웹 페이지" data-aos="flip-right"/>
+      <CardComponent :imgSrc="require('@/assets/img/project/sealab/sealab_1.png')" cardTitle="해(海)봄 교실 교육 앱" cardContents="중고등학교 과학 수업에 활용 할 수 있는 웹 페이지" />
     </div>
 
     <!-- contact -->
@@ -319,7 +319,7 @@
     <h1 class="division_line"></h1>
     <div class="contents">
       <img src="../assets/svg/e-mail.svg" style="width: 20px; margin-right: 10px;"> myk0907000@gmail.com<br>
-      <img src="../assets/svg/phone.svg" style="width: 20px; margin-right: 10px;"> +82 10-1234-5678 
+      <img src="../assets/svg/phone.svg" style="width: 20px; margin-right: 10px;"> +82 10-9266-1710
     </div>
   </div>
 </template>
@@ -394,6 +394,8 @@ export default {
   mounted() {
     // 컴포넌트가 마운트된 후, 바깥쪽 요소에 클릭 이벤트 리스너를 추가합니다.
     document.addEventListener('click', this.closeConfirmModal);
+    
+    // aos 라이브러리(카드 회전)
     AOS.init();
   }
 }
