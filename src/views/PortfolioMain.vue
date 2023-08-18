@@ -194,10 +194,11 @@
     <div class="contents-bg-black real_data equal-space">
       <div class="group_row box-3">
         <div class="header_2"><img src="../assets/svg/browser.svg"> 웹개발</div>
-          <li>Spring Framework & JAVA</li>
-          <li>HTML</li>
-          <li>JavaScript</li>
-          <li>CSS</li>
+        <li tooltip="MVC 패턴을 이용한 웹 페이지 (게시판, 페이징) 구현">Spring Framework & JAVA</li>
+        <li tooltip="div, span, img, a 등 HTML 태그를 활용한 웹 페이지 구성">HTML</li>
+        <li>JavaScript</li>
+        <li>CSS</li>
+        <li tooltip="composition api방식을 이용한 component 제작">Vue</li>
 
 <!--           
           Spring Framework & JAVA
@@ -213,8 +214,8 @@
       </div>
       <div class="group_row box-3">
         <div class="header_2"><img src="../assets/svg/bar-graph.svg"> 데이터</div>
-          <li>R</li>
-          <li>Python</li>
+        <li tooltip="csv, txt, nc파일 등을 데이터프레임으로 변환 후 원하는 형태로 편집하여 시각화, R Shiny 패키지를 이용하여 웹 앱 제작">R</li>
+        <li>Python</li>
 
           <!-- 
           R
@@ -225,17 +226,11 @@
           <li>인터넷 크롤링, 셀레니움을 사용하여 데이터 수집</li>
           -->
       </div>
-      <div class="group_row box-3">
+      <div class="group_row box-3" tooltip="데이터베이스를 만들고 필요한 테이블을 생성하여 웹페이지에 활용">
         <div class="header_2"><img src="../assets/svg/database.svg"> 데이터베이스</div>
-          <li>PostgreSQL</li>
-          <li>MySQL</li>
-          <li>MariaDB</li>
-
-          <!-- 
-          SQL
-          <li>데이터베이스를 만들고 필요한 테이블을 생성하여 웹페이지에 활용</li>
-          <li>subquery, join문을 활용하여 데이터 조회</li>
-          -->
+        <li>PostgreSQL</li>
+        <li>MySQL</li>
+        <li>MariaDB</li>
       </div>
 
     </div>

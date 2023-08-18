@@ -51,24 +51,24 @@
   
   export default {
     setup() {
+      
+      // 화면 상하단 이동버튼(거북이) 마우스 오버시 거북이 흔들림
       let buttonClass = ref('');
 
       const handleMouseOver = () => {
-      const buttonElement = document.getElementById('button-turtle');
-      if (buttonElement) {
-        if (buttonElement.className === 'to-top-button') {
+        const buttonElement = document.getElementById('button-turtle').className;
+        if (buttonElement === 'to-top-button') {
           buttonClass.value = 'element-shake-top';
-        } else if (buttonElement.className === 'to-down-button') {
+        } else if (buttonElement === 'to-down-button') {
           buttonClass.value = 'element-shake-bottom';
         }
-      }
-    };
+      };
 
-    const handleMouseOut = () => {
-      buttonClass.value = ''; // 초기 클래스로 변경
-    };
+      const handleMouseOut = () => {
+        buttonClass.value = ''; // 초기 클래스로 변경
+      };
 
-      // 마우스 휠 방향 체크
+      // 마우스 휠 방향 체크 함수
       let wheelDir = "down";
       const handleWheel = (event) => {
         if (event.deltaY > 0) {
