@@ -46,6 +46,27 @@ html, body{
     word-break: keep-all;
 }
 
+.contents-bg-black {
+    text-align: left;
+    vertical-align: top;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    line-height : 40px;
+    word-break: keep-all;
+    color: white;
+}
+
+.contents_desc {
+    color: rgb(148, 148, 148); 
+    font-size: 18px
+}
+
+.contents_desc-bg-black {
+    color: rgb(231, 231, 231); 
+    font-size: 18px
+}
+
 .group_row {
     display: inline-block;
     vertical-align: top;
@@ -59,6 +80,7 @@ html, body{
     margin: 55px 15px 15px 15px;
     font-size: 34px;
     font-weight: bold;
+    color: white;
 }
 
 .header_1 img {
@@ -86,7 +108,8 @@ html, body{
 .division_line {
     font-size: 45px;
     text-align: center;
-    border-top: 1px solid rgb(200, 200, 200);
+    border-top: 1px solid #FFFFFF;
+    /* border-top: 1px solid rgb(200, 200, 200); */
     margin: 0px;
     padding: 5px;
 }
@@ -131,11 +154,6 @@ html, body{
     margin-top: 5px;
     font-weight: bold; 
     font-size: 22px;
-}
-
-.contents_desc {
-    color: rgb(148, 148, 148); 
-    font-size: 18px
 }
 
 .img-border {
@@ -189,6 +207,7 @@ html, body{
 
 /* 카드 */
 .card_item {
+    background-color: white;
     vertical-align: top;
     border: 1px solid #d4d0d0;
     width: 90%;
@@ -328,8 +347,9 @@ li {
 }
 
 li::marker {
-    color: #42b983;
-    /* content: "😍"; */
+    color: #F7E572;
+    /* color: #42b983; */
+    /* content: "🔹"; */
 }
 
 /* 스크롤바 전체 */
@@ -350,6 +370,68 @@ li::marker {
     background-color: #42b9835d;
     border-radius: 10px;
     box-shadow: inset 0px 0px 5px white;
+}
+
+/* to top 버튼 */
+.top-down-button {
+    position: fixed; 
+    z-index: 999; 
+    bottom: 15px; 
+    right: 10px;
+    
+}
+
+.top-down-button :hover {
+    /* -webkit-animation: shake 2s .7s ease-in-out infinite;
+    -webkit-transform-origin: 50% 4px;
+    -moz-animation: shake 2s .7s ease-in-out infinite;
+    -moz-transform-origin: 50% 4px;
+    animation: shake 2s .7s ease-in-out infinite;
+    transform-origin: 50% 4px; */
+    
+}
+
+.element-shake-top {
+    -webkit-animation: shake 2s .7s ease-in-out infinite;
+    -webkit-transform-origin: 50% 4px;
+    -moz-animation: shake 2s .7s ease-in-out infinite;
+    -moz-transform-origin: 50% 4px;
+    animation: shake 2s .7s ease-in-out infinite;
+    transform-origin: 50% 4px;
+}
+
+.element-shake-bottom {
+    -webkit-animation: shake 2s .7s ease-in-out infinite;
+    -webkit-transform-origin: 50% 4px;
+    -moz-animation: shake 2s .7s ease-in-out infinite;
+    -moz-transform-origin: 50% 4px;
+    animation: shake 2s .7s ease-in-out infinite;
+    transform-origin: 50% 100%;
+}
+
+@keyframes shake {
+    0% { -webkit-transform: rotateZ(0); }
+    1% { -webkit-transform: rotateZ(10deg); }
+    10% { -webkit-transform: rotateZ(-8deg); }
+    19% { -webkit-transform: rotateZ(8deg); }
+    28% { -webkit-transform: rotateZ(-6deg); }
+    37% { -webkit-transform: rotateZ(6deg); }
+    46% { -webkit-transform: rotateZ(-4deg); }
+    55% { -webkit-transform: rotateZ(4deg); }
+    64% { -webkit-transform: rotateZ(-2deg); }
+    73% { -webkit-transform: rotateZ(1deg); }
+    82% { -webkit-transform: rotateZ(-1deg); }
+    100% { -webkit-transform: rotateZ(0); }
+}
+
+.to-top-button {
+    transform: rotate(-360deg);
+    transition: .3s ease-in-out;
+}
+
+.to-down-button {
+    transform: rotate(-180deg);
+    transition: .3s ease-in-out;
 }
 
 /* 푸터 색 변경 */

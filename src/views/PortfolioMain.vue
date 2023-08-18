@@ -132,18 +132,18 @@
     <!-- https://www.svgrepo.com/collection/twemoji-emojis/1  svg 이모지 사이트-->
 
     <!-- 프로필 경력 -->
-    <h1 class="header_1"><img src="../assets/svg/magnifying-glass.svg"> Profile</h1>
+    <h1 class="header_1" style="margin-top: 0px; padding-top: 15px;"><img src="../assets/svg/magnifying-glass.svg"> Profile</h1>
     <h1 class="division_line"></h1>
     <div>
-      <div class="contents">
+      <div class="contents-bg-black">
         <div class="header_2"><img src="../assets/svg/books.svg"> 경력</div>
         <div>
           <div class="group_row" style="text-align: right; width: 17%; margin-right: 30px;">
             <span class="header_3">알고그랩</span>(디지털사업부/사원)<br>
-            <span class="contents_desc">&nbsp;2022.10 ~ 현재</span>
+            <span class="contents_desc-bg-black">&nbsp;2022.10 ~ 현재</span>
           </div>
           <div class="group_row" style="width: 75%;">
-            AutoML 솔루션<span class="contents_desc">&nbsp;2022.10 ~ 2023.05(7개월)</span>
+            AutoML 솔루션<span class="contents_desc-bg-black">&nbsp;2022.10 ~ 2023.05(7개월)</span>
             <li>Spring Boot를 이용한 웹 솔루션 제작</li>
             <li>Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업을 진행함.</li>
             <li>에러 수정 및 기능 개편과, 신규 페이지의 기능 추가 작업을 진행함.</li>
@@ -153,37 +153,37 @@
         <div style="margin-top: 40px;">
           <div class="group_row" style="text-align: right; width: 17%; margin-right: 30px;">
             <span class="header_3">(주)환경과학기술</span>(해양사업부/대리)<br>
-            <span class="contents_desc">&nbsp;2017.5 ~ 2022.2</span>
+            <span class="contents_desc-bg-black">&nbsp;2017.5 ~ 2022.2</span>
           </div>
           <div class="group_row" style="width: 75%;">
-            관할해역 해양정보 공동활용 구축 연구<span class="contents_desc">&nbsp;2017.05 ~ 2022.02(4년 10개월)</span>
+            관할해역 해양정보 공동활용 구축 연구<span class="contents_desc-bg-black">&nbsp;2017.05 ~ 2022.02(4년 10개월)</span>
             <li>해양데이터 포털에서 데이터를 수집 후 R을 활용하여 데이터 전처리를 진행하고 PostgreSQL DB에 적재함.</li>
             <li>해양 데이터 시각화 페이지를 기획하고 R의 Shiny 라이브러리를 이용한 Interactive web app 을 개발하여 사용자들에게 제공함.</li>
             <br>
-            국내 블루카본 정보시스템 구축 및 평가관리기술 개발<span class="contents_desc">&nbsp;2017.05~2022.02(4년 10개월)</span>
+            국내 블루카본 정보시스템 구축 및 평가관리기술 개발<span class="contents_desc-bg-black">&nbsp;2017.05~2022.02(4년 10개월)</span>
             <li>블루카본과 관계된 갯벌, 식생지역, 매립지 등의 정보를 수집하였고, 갯벌과 식생지역을 드론으로 촬영하고 추출된 데이터를 PostgreSQL DB에 적재함.</li>
             <li>드론으로 촬영한 TIFF파일을 추출하여 저장하고, shp파일 지리 정보를 PostgreSQL DB에 저장함.</li>
           </div>
         </div>
       </div>
 
-      <div class="contents" style="margin: 30px 0 30px 0;">
+      <div class="contents-bg-black" style="margin: 30px 0 30px 0;">
         <div class="header_2"><img src="../assets/svg/pencil.svg"> 교육</div>
         빅데이터 플랫폼 구축(하둡)과 빅데이터분석(by Spark&Power Bi) & 자바(JAVA)웹개발<br>
-        <span class="contents_desc">&nbsp;2022.02 ~ 2022.08 (더조은아이티아카데미학원)</span><br>
+        <span class="contents_desc-bg-black">&nbsp;2022.02 ~ 2022.08 (더조은아이티아카데미학원)</span><br>
         <li>Spring Framework를 기반으로 웹 페이지 기획, 설계와 데이터베이스 활용을 통해 실무적인 기술을 익히고 빅데이터를 분산처리 할 수 있는 파이썬과 하둡 기술 학습</li>
       </div>
 
       <div class="equal-space">
-        <div class="group_row box-2 contents">
+        <div class="group_row box-2 contents-bg-black">
           <div class="header_2"><img src="../assets/svg/graduation-cap.svg"> 학력</div>
-          한양대학교 해양융합과학과 <span class="contents_desc">&nbsp;2015.3 ~ 2017.2 졸업</span><br>
-          학점은행제 컴퓨터공학과 <span class="contents_desc">&nbsp;2013.3 ~ 2015.2 수료</span>
+          한양대학교 해양융합과학과 <span class="contents_desc-bg-black">&nbsp;2015.3 ~ 2017.2 졸업</span><br>
+          학점은행제 컴퓨터공학과 <span class="contents_desc-bg-black">&nbsp;2013.3 ~ 2015.2 수료</span>
         </div>
-        <div class="group_row box-2 contents">
+        <div class="group_row box-2 contents-bg-black">
           <div class="header_2"><img src="../assets/svg/card-index.svg"> 자격증</div>
-          SQLD <span class="contents_desc">&nbsp;2020.10.06 (한국데이터산업진흥원)</span><br>
-          컴퓨터활용능력 2급 <span class="contents_desc">&nbsp;2016.08.26 (대한상공회의소)</span><br>
+          SQLD <span class="contents_desc-bg-black">&nbsp;2020.10.06 (한국데이터산업진흥원)</span><br>
+          컴퓨터활용능력 2급 <span class="contents_desc-bg-black">&nbsp;2016.08.26 (대한상공회의소)</span><br>
         </div>
       </div>
     </div>
@@ -191,7 +191,7 @@
     <!-- 보유스킬 -->
     <h1 class="header_1"><img src="../assets/svg/hammer-and-wrench.svg"> Skills</h1>
     <h1 class="division_line"></h1>
-    <div class="contents real_data equal-space">
+    <div class="contents-bg-black real_data equal-space">
       <div class="group_row box-3">
         <div class="header_2"><img src="../assets/svg/browser.svg"> 웹개발</div>
           <li>Spring Framework & JAVA</li>
@@ -317,7 +317,7 @@
     <!-- contact -->
     <h1 class="header_1"><img src="../assets/svg/mailbox.svg"> Contact</h1>
     <h1 class="division_line"></h1>
-    <div class="contents">
+    <div class="contents-bg-black">
       <img src="../assets/svg/e-mail.svg" style="width: 20px; margin-right: 10px;"> myk0907000@gmail.com<br>
       <img src="../assets/svg/phone.svg" style="width: 20px; margin-right: 10px;"> +82 10-9266-1710
     </div>

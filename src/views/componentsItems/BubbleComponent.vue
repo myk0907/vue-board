@@ -187,6 +187,7 @@ export default {
 canvas {
   -webkit-filter: blur(1px);
   filter: blur(1px);
+  /* position: fixed; */
   position: absolute;
   left: 0px;
   /* bottom: -150px; */
