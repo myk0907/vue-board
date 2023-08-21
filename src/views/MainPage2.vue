@@ -13,9 +13,8 @@
           <WaveComponent />
         </div>
         <div class="contents wave-contents">
-          
           <!--메인 콘텐츠-->
-          <div class="group_row char-img" style="margin-right: 50px">
+          <div class="group_row char-img" >
             <img src="../assets/img/my_pic_hand.png" style="width: 250px; ">
           </div>
           <div class="group_row main-contents">
@@ -65,22 +64,18 @@
       };
 
       const handleMouseOut = () => {
-        buttonClass.value = ''; // 초기 클래스로 변경
+        buttonClass.value = ''; // 초기 클래스로 변경(거북이 정지)
       };
 
       // 마우스 휠 방향 체크 함수
       let wheelDir = "down";
       const handleWheel = (event) => {
-        if (event.deltaY > 0) {
-          if(wheelDir != "down"){
-            wheelDir = "down";
-            document.getElementById("button-turtle").className = 'to-down-button';
-          }
-        } else if (event.deltaY < 0) {
-          if(wheelDir != "up"){
-            wheelDir = "up";
-            document.getElementById("button-turtle").className = 'to-top-button';
-          }
+        if (event.deltaY > 0 && wheelDir != "down") {
+          wheelDir = "down";
+          document.getElementById("button-turtle").className = 'to-down-button';
+        } else if (event.deltaY < 0 && wheelDir != "up") {
+          wheelDir = "up";
+          document.getElementById("button-turtle").className = 'to-top-button';
         }
       };
 
