@@ -325,9 +325,16 @@
     <!-- contact -->
     <h1 class="header_1"><img src="../assets/svg/mailbox.svg"> Contact</h1>
     <h1 class="division_line"></h1>
-    <div class="contents-bg-black">
-      <img src="../assets/svg/e-mail.svg" style="width: 20px; margin-right: 10px;"> myk0907000@gmail.com<br>
-      <img src="../assets/svg/phone.svg" style="width: 20px; margin-right: 10px;"> +82 10-9266-1710
+    <div class="contents-bg-black" style="margin-top: 0;">
+      <div class="group_row box-2">
+        <img src="../assets/svg/e-mail.svg" style="width: 20px; margin-right: 10px;"> myk0907000@gmail.com<br>
+        <img src="../assets/svg/phone.svg" style="width: 20px; margin-right: 10px;"> +82 10-9266-1710
+      </div>
+      <div class="group_row box-2" style="height: 80px; display: inline-flex; align-items: center;">
+        <a href='https://github.com/myk0907' target='_blank' style="margin-left: auto;">
+          <img class="white-svg" src="../assets/svg/github-icon-svgrepo-com.svg" style="width: 50px;">
+        </a>
+      </div>
     </div>
   </div>
 </template>
