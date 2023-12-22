@@ -21,7 +21,7 @@
             <p style="display: none;">안녕안녕녕녕녕하세요오오오오</p>
             <p class="header_1" >
               안녕하세요. <img class="reverse" src="../assets/svg/waving-hand.svg"><br>
-              주니어 Frontend개발자 김민영입니다.
+              웹개발자 김민영입니다.
             </p>
             <p style="display:none;">
               저는 

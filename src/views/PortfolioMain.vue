@@ -143,19 +143,22 @@
             <span class="contents_desc-bg-black">&nbsp;2022.10 ~ 현재</span>
           </div>
           <div class="group_row" style="width: 75%;">
-            <span style="font-weight: bold;">LLM 솔루션 개발</span><span class="contents_desc-bg-black">&nbsp;2022.07 ~ 현재</span>
+            <span style="font-weight: bold;">Data-lake 솔루션 개발</span><span class="contents_desc-bg-black">&nbsp;2022.10 ~ 2022.12(3개월)</span>
+            <li>웹 페이지 기획 및 화면설계서 작업을 진행함.</li>
+            <li>react 를 이용한 웹 프론트 기능 개발을 진행함.</li>
+            <br>
+            <span style="font-weight: bold;">LLM 솔루션 개발</span><span class="contents_desc-bg-black">&nbsp;2022.07 ~ 2022.11(5개월)</span>
             <li>Spring Boot를 이용한 웹 솔루션 제작</li>
-            <li>네이버 하이퍼 클로버 API를 활용한 솔루션 개발</li>
             <li>Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업을 진행함.</li>
             <br>
-            <span style="font-weight: bold;">Data Portal 솔루션 개발</span><span class="contents_desc-bg-black">&nbsp;2022.07 ~ 현재</span>
+            <span style="font-weight: bold;">Data Portal 솔루션 개발</span><span class="contents_desc-bg-black">&nbsp;2022.07 ~ 2022.11(5개월)</span>
             <li>Spring Boot를 이용한 웹 솔루션 제작</li>
-            <li>Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업을 진행함.</li>
+            <li>Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업 및 기업 솔루션화를 진행함.</li>
             <li>에러 수정 및 기능 개편과, 신규 페이지의 기능 추가 작업을 진행함.</li>
             <br>
             <span style="font-weight: bold;">AutoML 솔루션 개발</span><span class="contents_desc-bg-black">&nbsp;2022.10 ~ 2023.05(7개월)</span>
             <li>Spring Boot를 이용한 웹 솔루션 제작</li>
-            <li>Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업을 진행함.</li>
+            <li>Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업 및 기업 솔루션화를 진행함.</li>
             <li>에러 수정 및 기능 개편과, 신규 페이지의 기능 추가 작업을 진행함.</li>
             <li>Python과 FastAPI를 이용하여 통신한 데이터를 PostgreSQL DB에 저장하고 시각화함.</li>
           </div>
@@ -257,20 +260,19 @@
     <component v-if="isModalViewed" :is="modalComponent" @close-modal="closeAboutModal"></component>
 
     <!-- 프로젝트 소개 -->
-    <div class="group_row box-2" @click="openConfirmModal('cardItem_4', $event)" data-aos="flip-right">
-      <!-- 확인창 모달 -->
+    <!-- AutoML -->
+    <!-- <div class="group_row box-2" @click="openConfirmModal('cardItem_4', $event)" data-aos="flip-right">
       <div v-if="isModalConfirm === 'cardItem_4'" @close-modal="closeConfirmModal()">
         <div class="card_item card_overlay"></div>
         <div class="modal_confirm">
           <div class="group_row modal_button" @click="openAboutModal('automl')" style="width:100%">자세히 보기</div>
         </div>
       </div>
-      <!-- 모달 내용 -->
       <CardComponent :imgSrc="require('@/assets/img/project/automl/automl_5.png')" cardTitle="AutoML 솔루션" cardContents="반복적인 Machine Learning 모델 개발 작업 자동화 솔루션" />
-    </div>
+    </div> -->
 
+    <!-- JEJU -->
     <div class="group_row box-2 box-top-mg" @click="openConfirmModal('cardItem_3', $event)" data-aos="flip-right">
-      <!-- 확인창 모달 -->
       <div v-if="isModalConfirm === 'cardItem_3'" @close-modal="closeConfirmModal()">
         <div class="card_item card_overlay"></div>
         <div class="modal_confirm">
@@ -282,11 +284,14 @@
           </a>
         </div>
       </div>
+      
       <!-- 모달 내용 -->
       <CardComponent 
         :imgSrc="require('@/assets/img/project/jeju/jeju_1.png')" cardTitle="놀당갑서" cardContents="제주도 여행지 추천 사이트" />
     </div>
 
+
+    <!-- 화장품 쇼핑몰 -->
     <div class="group_row box-2" @click="openConfirmModal('cardItem_2', $event)" data-aos="flip-right">
       <!-- 확인창 모달 -->
       <!-- <ConfirmModal /> -->
@@ -305,6 +310,7 @@
       <CardComponent :imgSrc="require('@/assets/img/project/shop/www_shop_1.png')" cardTitle="WWW" cardContents="화면이 구현되어 있는 기존 화장품 쇼핑몰 사이트 클론 코딩" />
     </div>
 
+    <!-- 해봄교실 -->
     <div class="group_row box-2 box-top-mg" @click="openConfirmModal('cardItem_1', $event)" data-aos="flip-right">
       <!-- 확인창 모달 -->
       <div v-if="isModalConfirm === 'cardItem_1'" @close-modal="closeConfirmModal()">
@@ -325,9 +331,16 @@
     <!-- contact -->
     <h1 class="header_1"><img src="../assets/svg/mailbox.svg"> Contact</h1>
     <h1 class="division_line"></h1>
-    <div class="contents-bg-black">
-      <img src="../assets/svg/e-mail.svg" style="width: 20px; margin-right: 10px;"> myk0907000@gmail.com<br>
-      <img src="../assets/svg/phone.svg" style="width: 20px; margin-right: 10px;"> +82 10-9266-1710
+    <div class="contents-bg-black" style="margin-top: 0;">
+      <div class="group_row box-2">
+        <img src="../assets/svg/e-mail.svg" style="width: 20px; margin-right: 10px;"> myk0907000@gmail.com<br>
+        <img src="../assets/svg/phone.svg" style="width: 20px; margin-right: 10px;"> +82 10-9266-1710
+      </div>
+      <div class="group_row box-2" style="height: 80px; display: inline-flex; align-items: center;">
+        <a href='https://github.com/myk0907' target='_blank' style="margin-left: auto;">
+          <img class="white-svg" src="../assets/svg/github-icon-svgrepo-com.svg" style="width: 50px;">
+        </a>
+      </div>
     </div>
   </div>
 </template>
