@@ -6,10 +6,10 @@
     </div>
 
     <!-- 페이지1: 메인 -->
-    <div class="page-section1" >
-      <div class="wave-main-container">
+    <div class="page-section1 m-0 p-0" >
         
-        <div class="wave-component">
+      <div class="wave-main-container">
+        <div class="">
           <WaveComponent />
         </div>
         <div class="contents wave-contents">
@@ -18,13 +18,9 @@
             <img src="../assets/img/my_pic_hand.png" style="width: 250px; ">
           </div>
           <div class="group_row main-contents">
-            <p style="display: none;">안녕안녕녕녕녕하세요오오오오</p>
             <p class="header_1" >
               안녕하세요. <img class="reverse" src="../assets/svg/waving-hand.svg"><br>
               웹개발자 김민영입니다.
-            </p>
-            <p style="display:none;">
-              저는 
             </p>
           </div>
         </div>
@@ -34,7 +30,7 @@
     </div>
     
     <!-- 페이지 2: 포트폴리오 -->
-    <div class="page-section2">
+    <div class="page-section2 m-0 p-0">
       <Portfolio/>
     </div>
 
@@ -147,13 +143,13 @@
   <style scoped>
   .page-section1 {
     height:100vh;
-    width:100%;
+    width:100vw;
     display: flex;
   }
 
   .wave-main-container {
     position: relative;
-    width: 100%; 
+    width: 100vw; 
     height: 80vh; 
     align-self: flex-end;
   }
@@ -161,7 +157,7 @@
   .wave-contents {
     background-color: rgb(169,214,226); 
     margin:0px; 
-    height: calc(100% - 120px);
+    height: calc(100% - 110px);
   }
   
   .char-img {
@@ -191,7 +187,7 @@
   }
 
   .page-section2 {
-    background: linear-gradient(rgb(169,214,226), #00B7A8,  #096386, #071E3D);
+    background: linear-gradient(#a9d6e2, #00B7A8,  #096386, #071E3D);
   }
 
 
