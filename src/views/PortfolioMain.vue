@@ -24,6 +24,7 @@
                 <li>텍스트박스, 그래프 등 대시보드 기능 개발</li>
               </div>
               <div class="lang_container">
+                <span>React</span>
                 <span>next.js</span>
                 <span>Spring Boot</span>
                 <span>PostgreSQL</span>
@@ -39,6 +40,7 @@
               <li>체력일지 관리 및 대시보드 표출 기능 개발</li>
               <div class="lang_container">
                 <span>vue</span>
+                <span>node.js</span>
                 <span>Spring Boot</span>
                 <span>PostgreSQL</span>
               </div>
@@ -64,6 +66,8 @@
               <div class="lang_container">
                 <span>Spring Boot</span>
                 <span>PostgreSQL</span>
+                <span>JSP</span>
+                <span>jQuery</span>
               </div>
             </div>
 
@@ -75,6 +79,8 @@
               <div class="lang_container">
                 <span>Spring Boot</span>
                 <span>PostgreSQL</span>
+                <span>JSP</span>
+                <span>jQuery</span>
               </div>
             </div>
 
@@ -88,6 +94,8 @@
               <div class="lang_container">
                 <span>Spring Boot</span>
                 <span>PostgreSQL</span>
+                <span>JSP</span>
+                <span>jQuery</span>
               </div>
             </div>
           </div>
@@ -100,23 +108,26 @@
           <div class="group_row" style="width: 75%;">
             <div class="mb-5">
               <span style="font-weight: bold;">관할해역 해양정보 공동활용 구축 연구</span><span class="contents_desc-bg-black">&nbsp;2017.05 ~ 2022.02(4년 10개월)</span>
-              <li>해양데이터 포털에서 데이터 수집 및 데이터 전처리</li>
-              <li>데이터 PostgreSQL DB 적재</li>
-              <li>해양 데이터 시각화 페이지를 기획 및 R의 Shiny 라이브러리를 이용한 Interactive web app 개발</li>
+              <li>해외 및 국내 공공 포털을 이용한 해양 데이터 수집</li>
+              <li>R을 활용한 데이터 전처리 및 PostgreSQL DB에 적재</li>
+              <li>해양 시각화 페이지 기획 및 R shiny패키지를 이용한 Interactive web app 개발</li>
               <div class="lang_container">
                 <span>R</span>
                 <span>PostgreSQL</span>
+                <span>QGIS</span>
+                <span>ArcGIS</span>
               </div>
             </div>
 
             <div class="mb-5">
               <span style="font-weight: bold;">국내 블루카본 정보시스템 구축 및 평가관리기술 개발</span><span class="contents_desc-bg-black">&nbsp;2017.05~2022.02(4년 10개월)</span>
-              <li>블루카본과 관계된 갯벌, 식생지역, 매립지 등의 정보 수집 및 갯벌과 식생지역을 드론촬영 데이터 추출</li>
-              <li>데이터 PostgreSQL DB 저장</li>
+              <li>블루카본 데이터 수집, 전처리 및 적재</li>
+              <li>QGIS/ArcGIS를 활용한 드론촬영 데이터 전처리 및 적재</li>
               <div class="lang_container">
                 <span>R</span>
                 <span>PostgreSQL</span>
                 <span>QGIS</span>
+                <span>ArcGIS</span>
               </div>
             </div>
           </div>
