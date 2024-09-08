@@ -20,8 +20,12 @@
           <div class="group_row main-contents">
             <p class="header_1" >
               안녕하세요. <img class="reverse" src="../assets/svg/waving-hand.svg"><br>
-              웹개발자 김민영입니다.
+              웹 개발자 김민영입니다.<br>
             </p>
+            <p style="margin: 15px; color: white; font-size: 25px">
+              저는 사용자의 관점에서 개발하는 것을 중요하게 생각합니다.<br>
+              동료들과의 협업과 문제 해결 과정을 즐깁니다.
+            </p>  
           </div>
         </div>
         <!--메인 콘텐츠 끝-->
