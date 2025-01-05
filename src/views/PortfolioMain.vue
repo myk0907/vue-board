@@ -18,14 +18,14 @@
             <div class="mb-5">
               <span style="font-weight: bold;">data-lake 솔루션 개발</span><span class="contents_desc-bg-black">&nbsp;2024.07 ~ 2024.08(2개월)</span>
               <div>
-                데이터 관리 시스템을 통한 사용자의 데이터 적재, 전처리, 벡터 임베딩, 시각화 서비스  
+                데이터 관리 시스템을 통한 사용자의 대시보드(텍스트박스, 시각화) 서비스 개발  
               </div>
               <div>
-                <li>텍스트박스, 그래프 등 대시보드 기능 개발</li>
+                <li>텍스트박스, 그래프 등 대시보드 기능 및 REST API 개발</li>
               </div>
               <div class="lang_container">
                 <span>React</span>
-                <span>next.js</span>
+                <span>Next.js</span>
                 <span>Spring Boot</span>
                 <span>PostgreSQL</span>
               </div>
@@ -34,13 +34,13 @@
             <div class="mb-5">
               <span style="font-weight: bold;">SportsAI 통합훈련 관리 플랫폼</span><span class="contents_desc-bg-black">&nbsp;2024.01 ~ 2024.07(7개월)</span>
               <div>
-                선수 관리 시스템을 통해 패럴림픽 국가 대표 선수들의 기본정보, 경기결과 등 관리할 수 있는 서비스
+                선수 관리 시스템을 통해 패럴림픽 국가 대표 선수들의 기본정보, 경기결과 등 관리할 수 있는 서비스 개발
               </div>
-              <li>경기결과 관리 기능 개발</li>
-              <li>체력일지 관리 및 대시보드 표출 기능 개발</li>
+              <li>경기결과 관리 기능 및 REST API 개발</li>
+              <li>체력일지 관리 및 대시보드 표출 기능 및 REST API 개발</li>
               <div class="lang_container">
-                <span>vue</span>
-                <span>node.js</span>
+                <span>Vue</span>
+                <span>Node.js</span>
                 <span>Spring Boot</span>
                 <span>PostgreSQL</span>
               </div>
@@ -49,7 +49,7 @@
             <div class="mb-5">
               <span style="font-weight: bold;">Data-lake 솔루션 개발</span><span class="contents_desc-bg-black">&nbsp;2023.10 ~ 2023.12(3개월)</span>
               <div>
-                데이터 관리 시스템을 통한 사용자의 데이터 적재, 전처리, 벡터 임베딩, 시각화 서비스  
+                데이터 관리 시스템을 통한 사용자의 데이터 적재, 전처리, query editor, 사용자 그룹 생성 등 front-end개발
               </div>
               <li>쿼리 에디터 front-end 개발</li>
               <li>데이터 저장소 front-end 개발</li>
@@ -60,6 +60,9 @@
 
             <div class="mb-5">
               <span style="font-weight: bold;">LLM 솔루션 개발</span><span class="contents_desc-bg-black">&nbsp;2023.07 ~ 2023.11(5개월)</span>
+              <div>
+                Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업 및 기업 솔루션화 진행
+              </div>
               <li>Spring Boot를 이용한 웹 솔루션 제작</li>
               <li>데이터 마이그레이션 진행</li>
               <li>Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업 진행</li>
@@ -73,6 +76,9 @@
 
             <div class="mb-5">
               <span style="font-weight: bold;">Data Portal 솔루션 개발</span><span class="contents_desc-bg-black">&nbsp;2023.07 ~ 2023.11(5개월)</span>
+              <div>
+                Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업 및 기업 솔루션화 진행
+              </div>
               <li>Spring Boot를 이용한 웹 솔루션 제작</li>
               <li>Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업 및 기업 솔루션화 진행</li>
               <li>에러 수정 및 기능 개편과, 신규 페이지의 기능 추가 작업 진행</li>
@@ -86,6 +92,9 @@
 
             <div class="mb-5">
               <span style="font-weight: bold;">AutoML 솔루션 개발</span><span class="contents_desc-bg-black">&nbsp;2022.10 ~ 2023.05(7개월)</span>
+              <div>
+                Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업 진행 및 데이터 전처리 REST API, 시각화 기능 개발
+              </div>
               <li>Spring Boot를 이용한 웹 솔루션 제작</li>
               <li>front-end, back-end </li>
               <li>Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업 및 기업 솔루션화 진행</li>
