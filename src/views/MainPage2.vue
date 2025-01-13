@@ -22,10 +22,9 @@
               안녕하세요. <img class="reverse" src="../assets/svg/waving-hand.svg"><br>
               웹 개발자 김민영입니다.<br>
             </p>
-            <p style="width: 65%; color: white; font-size: 25px">
+            <p style="width: 65%; color: white; font-size: 20px">
               저는 SPA 프레임워크(React, Vue)와 Spring 프레임워크 기반 프로젝트를 수행한 풀스텍 및 front-end 개발자 입니다.<br>
-              개발 이전에는 기획, 데이터 처리, 시각화, 웹페이지 제작 등 전반적인 과정을 경험하며 사용자 중심의 웹 기획 역량을 키웠습니다. <br>
-              <br>
+              새로운 언어를 익히고 사용하는 것을 두려워 하지 않고, 문제를 해결하는 과정을 즐깁니다.<br>
               다양한 직군과의 협업 경험을 통해 원활한 소통 능력을 갖추었으며, 개발과 문서 작업 모두에 강점을 지니고 있습니다.
             </p>  
           </div>
