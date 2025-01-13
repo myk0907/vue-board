@@ -9,138 +9,95 @@
     <div>
       <div class="contents-bg-black">
         <div class="header_2"><img src="../assets/svg/books.svg"> 경력</div>
-        <div>
-          <div class="group_row" style="text-align: right; width: 17%; margin-right: 30px;">
-            <span class="header_3">알고그랩</span>(풀스택서비스팀/사원)<br>
-            <span class="contents_desc-bg-black">&nbsp;2022.10 ~ 2024.09</span>
-          </div>
-          <div class="group_row" style="width: 75%;">
-            <div class="mb-5">
-              <span style="font-weight: bold;">data-lake 솔루션 개발</span><span class="contents_desc-bg-black">&nbsp;2024.07 ~ 2024.08(2개월)</span>
-              <div>
-                데이터 관리 시스템을 통한 사용자의 대시보드(텍스트박스, 시각화) 서비스 개발  
-              </div>
-              <div>
-                <li>텍스트박스, 그래프 등 대시보드 기능 및 REST API 개발</li>
-              </div>
-              <div class="lang_container">
-                <span>React</span>
-                <span>Next.js</span>
-                <span>Spring Boot</span>
-                <span>PostgreSQL</span>
-              </div>
-            </div>
+        <CareerItem 
+          companyName="알고그랩" 
+          roleName="풀스택서비스팀/사원" 
+          periodOfEmployment="2022.10 ~ 2024.09"
+          :projectInfos="[
+            {projectName: 'Data-lake 솔루션 개발',
+              projectDuration: '2024.07 ~ 2024.08(2개월)',
+              primaryRole: '풀스택 담당',
+              taskSummary: '웹 페이지 기능 개발 및 REST API 개발',
+              techStacks: ['React', 'Next.js', 'Spring Boot', 'PostgreSQL'],
+              devCount: '5명',
+              mainTasks: ['데이터 관리 시스템 내 드래그 앤 드롭 대시보드(텍스트 박스, 시각화) 생성, 편집 기능 개발']},
+              
+            {projectName: 'SportsAI 통합훈련 관리 플랫폼',
+            projectDuration: '2024.01 ~ 2024.07(7개월)',
+            primaryRole: '풀스택 담당',
+            taskSummary: '패럴림픽 국가 대표 선수 관리 시스템 개발',
+            techStacks: ['Vue', 'Node.js', 'Spring Boot', 'PostgreSQL'],
+            devCount: '4명',
+            mainTasks: [
+              '선수 기본정보, 경기결과 등 관리자 페이지 기능 개발',
+              '선수 대시보드 페이지 기능 개발',
+              '화면 기획, 화면 설계서 작성'
+            ]},
 
-            <div class="mb-5">
-              <span style="font-weight: bold;">SportsAI 통합훈련 관리 플랫폼</span><span class="contents_desc-bg-black">&nbsp;2024.01 ~ 2024.07(7개월)</span>
-              <div>
-                선수 관리 시스템을 통해 패럴림픽 국가 대표 선수들의 기본정보, 경기결과 등 관리할 수 있는 서비스 개발
-              </div>
-              <li>경기결과 관리 기능 및 REST API 개발</li>
-              <li>체력일지 관리 및 대시보드 표출 기능 및 REST API 개발</li>
-              <div class="lang_container">
-                <span>Vue</span>
-                <span>Node.js</span>
-                <span>Spring Boot</span>
-                <span>PostgreSQL</span>
-              </div>
-            </div>
+            {projectName: 'Data-lake 솔루션 개발',
+            projectDuration: '2023.10 ~ 2023.12(3개월)',
+            primaryRole: 'Front-end 담당',
+            taskSummary: '웹 페이지 기능 개발',
+            techStacks: ['React', 'Next.js', 'Spring Boot', 'PostgreSQL'],
+            devCount: '3명(front-end), 3명(front-end), 2명(python), 1명(publisher)',
+            mainTasks: [
+              '데이터 적재, 전처리, query editor, 사용자 그룹 생성 페이지 개발',
+              '화면 기획, 화면 설계서, 테이블 정의서 작성',
+            ]},
 
-            <div class="mb-5">
-              <span style="font-weight: bold;">Data-lake 솔루션 개발</span><span class="contents_desc-bg-black">&nbsp;2023.10 ~ 2023.12(3개월)</span>
-              <div>
-                데이터 관리 시스템을 통한 사용자의 데이터 적재, 전처리, query editor, 사용자 그룹 생성 등 front-end개발
-              </div>
-              <li>쿼리 에디터 front-end 개발</li>
-              <li>데이터 저장소 front-end 개발</li>
-              <div class="lang_container">
-                <span>React</span>
-              </div>
-            </div>
-
-            <div class="mb-5">
-              <span style="font-weight: bold;">LLM 솔루션 개발</span><span class="contents_desc-bg-black">&nbsp;2023.07 ~ 2023.11(5개월)</span>
-              <div>
-                Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업 및 기업 솔루션화 진행
-              </div>
-              <li>Spring Boot를 이용한 웹 솔루션 제작</li>
-              <li>데이터 마이그레이션 진행</li>
-              <li>Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업 진행</li>
-              <div class="lang_container">
-                <span>Spring Boot</span>
-                <span>PostgreSQL</span>
-                <span>JSP</span>
-                <span>jQuery</span>
-              </div>
-            </div>
-
-            <div class="mb-5">
-              <span style="font-weight: bold;">Data Portal 솔루션 개발</span><span class="contents_desc-bg-black">&nbsp;2023.07 ~ 2023.11(5개월)</span>
-              <div>
-                Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업 및 기업 솔루션화 진행
-              </div>
-              <li>Spring Boot를 이용한 웹 솔루션 제작</li>
-              <li>Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업 및 기업 솔루션화 진행</li>
-              <li>에러 수정 및 기능 개편과, 신규 페이지의 기능 추가 작업 진행</li>
-              <div class="lang_container">
-                <span>Spring Boot</span>
-                <span>PostgreSQL</span>
-                <span>JSP</span>
-                <span>jQuery</span>
-              </div>
-            </div>
-
-            <div class="mb-5">
-              <span style="font-weight: bold;">AutoML 솔루션 개발</span><span class="contents_desc-bg-black">&nbsp;2022.10 ~ 2023.05(7개월)</span>
-              <div>
-                Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업 진행 및 데이터 전처리 REST API, 시각화 기능 개발
-              </div>
-              <li>Spring Boot를 이용한 웹 솔루션 제작</li>
-              <li>front-end, back-end </li>
-              <li>Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업 및 기업 솔루션화 진행</li>
-              <li>에러 수정 및 기능 개편과, 신규 페이지의 기능 추가 작업 진행</li>
-              <li>Python과 FastAPI를 이용하여 통신한 데이터를 PostgreSQL DB에 저장 및 시각화</li>
-              <div class="lang_container">
-                <span>Spring Boot</span>
-                <span>PostgreSQL</span>
-                <span>JSP</span>
-                <span>jQuery</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div style="margin-top: 40px;">
-          <div class="group_row" style="text-align: right; width: 17%; margin-right: 30px;">
-            <span class="header_3">(주)환경과학기술</span>(해양사업부/대리)<br>
-            <span class="contents_desc-bg-black">&nbsp;2017.5 ~ 2022.2</span>
-          </div>
-          <div class="group_row" style="width: 75%;">
-            <div class="mb-5">
-              <span style="font-weight: bold;">관할해역 해양정보 공동활용 구축 연구</span><span class="contents_desc-bg-black">&nbsp;2017.05 ~ 2022.02(4년 10개월)</span>
-              <li>해외 및 국내 공공 포털을 이용한 해양 데이터 수집</li>
-              <li>R을 활용한 데이터 전처리 및 PostgreSQL DB에 적재</li>
-              <li>해양 시각화 페이지 기획 및 R shiny패키지를 이용한 Interactive web app 개발</li>
-              <div class="lang_container">
-                <span>R</span>
-                <span>PostgreSQL</span>
-                <span>QGIS</span>
-                <span>ArcGIS</span>
-              </div>
-            </div>
-
-            <div class="mb-5">
-              <span style="font-weight: bold;">국내 블루카본 정보시스템 구축 및 평가관리기술 개발</span><span class="contents_desc-bg-black">&nbsp;2017.05~2022.02(4년 10개월)</span>
-              <li>블루카본 데이터 수집, 전처리 및 적재</li>
-              <li>QGIS/ArcGIS를 활용한 드론촬영 데이터 전처리 및 적재</li>
-              <div class="lang_container">
-                <span>R</span>
-                <span>PostgreSQL</span>
-                <span>QGIS</span>
-                <span>ArcGIS</span>
-              </div>
-            </div>
-          </div>
-        </div>
+            {projectName: 'LLM & Data Portal 솔루션 개발 동시 진행',
+            projectDuration: '2023.07 ~ 2023.11(5개월)',
+            primaryRole: '풀스택 담당',
+            taskSummary: '기존 코드 리팩토링 작업 및 기업 솔루션화 진행',
+            techStacks: ['Spring Boot', 'JSP', 'jQuery', 'PostgreSQL'],
+            devCount: '4명',
+            mainTasks: [
+              '데이터 적재, 전처리, query editor, 사용자 그룹 생성 페이지 개발',
+              '화면 기획, 화면 설계서, 테이블 정의서 작성',
+            ]},
+            
+            {projectName: 'AutoML 1.5v 솔루션 개발',
+            projectDuration: '2022.10 ~ 2023.05(7개월)',
+            primaryRole: '풀스택 담당',
+            taskSummary: '기존 코드 리팩토링 작업 및 기업 솔루션화 진행, 신 기능 개발',
+            techStacks: ['Spring Boot', 'JSP', 'jQuery', 'PostgreSQL'],
+            devCount: '2명(풀스택), 2명(python)',
+            mainTasks: [
+              'Spring 프레임워크 기반으로 개발된 웹사이트의 기존 코드 리팩토링 작업 및 기업별 맞춤 솔루션화 진행',
+              '쿼리 개선 및 무한 스크롤 도입을 통한 속도 개선 작업 진행',
+              '화면 설계서, 테이블 정의서 작성',
+            ]},
+          ]"
+        />
+        <CareerItem 
+          companyName="(주)환경과학기술" 
+          roleName="해양사업부/대리" 
+          periodOfEmployment="2017.05 ~ 2022.02"
+          :projectInfos="[
+            {projectName: '관할해역 해양정보 공동활용 구축 연구',
+            projectDuration: '2017.05 ~ 2022.02(4년 10개월)',
+            primaryRole: '자료 처리 담당',
+            taskSummary: '자료 수집 및 데이터베이스 적재',
+            techStacks: ['R', 'PostgreSQL', 'QGIS', 'ArcGIS', '엑셀'],
+            devCount: '4명',
+            mainTasks: [
+              '해외 및 국내 공공 포털을 이용한 해양 데이터 수집',
+              'R을 활용한 데이터 전처리 및 PostgreSQL DB에 적재',
+              '해양 시각화 페이지 기획 및 R shiny패키지를 이용한 Interactive web app 개발 (http://shiny.kesti.info/)'
+            ]},
+              
+            {projectName: '국내 블루카본 정보시스템 구축 및 평가관리기술 개발',
+            projectDuration: '22017.05~2022.02(4년 10개월)',
+            primaryRole: '자료 처리 담당',
+            taskSummary: '자료 수집 및 데이터베이스 적재',
+            techStacks: ['R', 'PostgreSQL', 'QGIS', 'ArcGIS'],
+            devCount: '4명',
+            mainTasks: [
+              '블루카본 데이터 수집, 전처리 및 적재',
+              'QGIS/ArcGIS를 활용한 드론촬영 데이터 전처리 및 적재',
+            ]},
+          ]"
+        />
       </div>
 
       <div class="contents-bg-black mb-5">
@@ -317,6 +274,7 @@
 
 <script>
 import AOS from "aos"
+import CareerItem from "./componentsItems/CareerItem.vue"
 import ConfirmModal from './componentsItems/ConfirmModal.vue'
 import CardComponent from './componentsItems/CardComponent.vue'
 import ModalAutoML from "./projectAbout/projectModal/ModalProjectAutoML.vue"
@@ -333,7 +291,8 @@ export default {
     ModalShop,
     ModalSealab,
     CardComponent,
-    ConfirmModal
+    ConfirmModal,
+    CareerItem
   },
   data() {
     return {
