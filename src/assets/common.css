@@ -34,7 +34,7 @@ html, body{
 .custom-body {
     /* 너비를 1280px로 고정 */
     /* width: 1280px;  */
-    width: 100vw;
+    width: 85vw;
     margin: 0 auto; /* 가운데 정렬을 위한 마진 설정 */
 }
 
