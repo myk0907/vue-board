@@ -29,9 +29,10 @@
             techStacks: ['Vue', 'Node.js', 'Spring Boot', 'PostgreSQL'],
             devCount: '4명',
             mainTasks: [
+              '회원가입 기능 및 이메일 인증 기능 개발',
               '선수 기본정보, 경기결과 등 관리자 페이지 기능 개발',
               '선수 대시보드 페이지 기능 개발',
-              '화면 기획, 화면 설계서 작성'
+              '화면 기획, 화면 설계서 작성',
             ]},
 
             {projectName: 'Data-lake 솔루션 개발',
@@ -90,10 +91,10 @@
             projectDuration: '22017.05~2022.02(4년 10개월)',
             primaryRole: '자료 처리 담당',
             taskSummary: '자료 수집 및 데이터베이스 적재',
-            techStacks: ['R', 'PostgreSQL', 'QGIS', 'ArcGIS'],
+            techStacks: ['R', 'PostgreSQL', 'QGIS', 'ArcGIS', '엑셀'],
             devCount: '4명',
             mainTasks: [
-              '블루카본 데이터 수집, 전처리 및 적재',
+              '블루카본 데이터 수집, R을 이용한 전처리 및 PostgreSQL DB에 적재',
               'QGIS/ArcGIS를 활용한 드론촬영 데이터 전처리 및 적재',
             ]},
           ]"
