@@ -1,6 +1,6 @@
 <template>
 	<div class="group_row" style="text-align: right; width: 17%; margin-right: 30px;">
-		<span class="header_3">{{ companyName }}</span>({{ roleName }})<br>
+		<span class="header_3">{{ companyName }}</span><br>({{ roleName }})<br>
 		<span class="contents_desc-bg-black">&nbsp;{{ periodOfEmployment }}</span>
 	</div>
 	<div class="group_row" style="width: 75%;">
@@ -21,6 +21,9 @@
 			<!-- 개발 인원 -->
 			<div>
 				- 개발 인원: {{ projectInfo.devCount }}
+			</div>
+			<div>
+				- 기여도: {{ projectInfo.contribution }}
 			</div>
 			<div>
 				<!-- 상세내역 -->

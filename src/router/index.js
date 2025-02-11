@@ -1,27 +1,19 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import PortfolioMain from '@/views/PortfolioMain.vue'
-import MainPage from '@/views/MainPage.vue'
-import MainPage2 from '@/views/MainPage2.vue'
-import BoardList from '@/views/board/BoardList.vue'
+import MainPageSimple from '@/views/MainPageSimple.vue'
+import MainPageWave from '@/views/MainPageWave.vue'
 import ProjectAbout from '@/views/ProjectAbout.vue'
 
 const routes = [
   // 메인페이지
   {
     path: '/',
+    name: 'MainPageSimple',
+    component: MainPageSimple
+  },
+  {
+    path: '/wave',
     name: 'MainPage',
-    component: MainPage2
-  },
-  {
-    path: '/2',
-    name: 'MainPage2',
-    component: MainPage
-  },
-  // 포트폴리오 메인페이지
-  {
-    path: '/portfolio',
-    name: 'PortfolioMain',
-    component: PortfolioMain
+    component: MainPageWave
   },
   // 프로젝트 목록
   {
@@ -30,11 +22,6 @@ const routes = [
     component: ProjectAbout
   },
   // 세번째 메뉴?
-  {
-    path: '/board/list',
-    name: 'BoardList',
-    component: BoardList
-  },
   
 ]
 
